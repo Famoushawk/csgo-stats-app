@@ -70,7 +70,6 @@ const roundChartData = computed(() => {
 
 const chartOptions = computed(() => {
   if (!props.roundData?.rounds) return {};
-  // Convert undefined to null for type compatibility
   return createRoundDurationChartOptions(props.roundData.rounds, props.matchData ?? null);
 });
 </script>

@@ -21,15 +21,15 @@
               NAVI ({{ isNaviCT ? 'CT' : 'T' }})
             </td>
           </tr>
-          <template v-for="player in naviPlayers" :key="player.name">
+          <template v-for="player in getTeamPlayers(Team.Navi)" :key="player.name">
             <tr class="text-base text-white" :class="[isNaviCT ? 'bg-sky-400/50' : 'bg-rose-400/50']">
               <td class="text-left px-4 py-2 font-medium">{{ player.name }}</td>
               <td class="text-center">{{ player.kills }}</td>
               <td class="text-center">{{ player.deaths }}</td>
-              <td class="text-center">{{ (player.kills / Math.max(player.deaths, 1)).toFixed(2) }}</td>
+              <td class="text-center">{{ calculateKDRatio(player) }}</td>
               <td class="text-center">{{ player.headshots }}</td>
-              <td class="text-center">{{ player.headshotPercentage.toFixed(1) }}%</td>
-              <td class="text-center">{{ player.weaponBreakdown }}</td>
+              <td class="text-center">{{ calculateHeadshotPercentage(player) }}%</td>
+              <td class="text-center">{{ getPlayerMostUsedWeapon(player.name) }}</td>
             </tr>
           </template>
 
@@ -38,15 +38,15 @@
               Team Vitality ({{ isVitalityCT ? 'CT' : 'T' }})
             </td>
           </tr>
-          <template v-for="player in vitalityPlayers" :key="player.name">
+          <template v-for="player in getTeamPlayers(Team.Vitality)" :key="player.name">
             <tr class="text-base text-white" :class="[isVitalityCT ? 'bg-sky-400/50' : 'bg-rose-400/50']">
               <td class="text-left px-4 py-2 font-medium">{{ player.name }}</td>
               <td class="text-center">{{ player.kills }}</td>
               <td class="text-center">{{ player.deaths }}</td>
-              <td class="text-center">{{ (player.kills / Math.max(player.deaths, 1)).toFixed(2) }}</td>
+              <td class="text-center">{{ calculateKDRatio(player) }}</td>
               <td class="text-center">{{ player.headshots }}</td>
-              <td class="text-center">{{ player.headshotPercentage.toFixed(1) }}%</td>
-              <td class="text-center">{{ player.weaponBreakdown }}</td>
+              <td class="text-center">{{ calculateHeadshotPercentage(player) }}%</td>
+              <td class="text-center">{{ getPlayerMostUsedWeapon(player.name) }}</td>
             </tr>
           </template>
         </tbody>
@@ -54,7 +54,9 @@
 
       <div class="mt-2">
         <div class="flex items-center gap-4">
-          <span class="text-base font-bold text-white">Round: {{ currentRound }}/{{ roundData?.length || 1 }}</span>
+          <span class="text-base font-bold text-white">
+            Round: {{ currentRound }}/{{ roundData?.length || 1 }}
+          </span>
           <input
             type="range"
             v-model="currentRound"
@@ -74,67 +76,103 @@ import { ref, computed, watchEffect, toRefs } from 'vue';
 import type {
   TransformedPlayerStats,
   PlayerRoundStats,
-  MatchStats
+  MatchStats,
+  KillEvent
 } from '@/data/types';
 
-const props = defineProps<{
-  killData: MatchStats;
-}>();
-
-const { killData } = toRefs(props);
-
-const NAVI_PLAYERS = ['s1mple', 'b1t', 'electronic', 'Boombl4', 'Perfecto'] as const;
-const VITALITY_PLAYERS = ['ZywOo', 'apEX', 'misutaaa', 'Kyojin', 'shox '] as const;
-const SIDE_SWITCH_ROUND = 16;
+enum Team {
+  Navi = 'NAVI',
+  Vitality = 'Vitality'
+}
 
 interface RoundSnapshot {
   roundNumber: number;
-  playerStats: {
-    [key: string]: PlayerRoundStats;
-  };
+  playerStats: Record<string, PlayerRoundStats>;
 }
 
-const currentRound = ref(1);
+type NaviPlayer = 's1mple' | 'b1t' | 'electronic' | 'Boombl4' | 'Perfecto';
+type VitalityPlayer = 'ZywOo' | 'apEX' | 'misutaaa' | 'Kyojin' | 'shox ';
+type PlayerName = NaviPlayer | VitalityPlayer;
+
+const NAVI_PLAYERS: readonly NaviPlayer[] = ['s1mple', 'b1t', 'electronic', 'Boombl4', 'Perfecto'] as const;
+const VITALITY_PLAYERS: readonly VitalityPlayer[] = ['ZywOo', 'apEX', 'misutaaa', 'Kyojin', 'shox '] as const;
+const SIDE_SWITCH_ROUND = 16;
+
+interface Props {
+  killData: MatchStats;
+}
+
+const props = defineProps<Props>();
+const { killData } = toRefs(props);
+
+const currentRound = ref<number>(1);
 const roundData = ref<RoundSnapshot[]>([]);
 const allPlayerStats = ref<TransformedPlayerStats[]>([]);
 
-const isVitalityCT = computed(() => currentRound.value < SIDE_SWITCH_ROUND);
-const isNaviCT = computed(() => currentRound.value >= SIDE_SWITCH_ROUND);
+const isVitalityCT = computed((): boolean => currentRound.value < SIDE_SWITCH_ROUND);
+const isNaviCT = computed((): boolean => currentRound.value >= SIDE_SWITCH_ROUND);
 
-const naviPlayers = computed(() => {
+function getTeamPlayers<T extends Team>(team: T): TransformedPlayerStats[] {
+  const naviPlayers: readonly NaviPlayer[] = NAVI_PLAYERS;
+  const vitalityPlayers: readonly VitalityPlayer[] = VITALITY_PLAYERS;
+
   return allPlayerStats.value
-    .filter(player =>
-      NAVI_PLAYERS.some(naviPlayer => naviPlayer === player.name)
-    )
-    .sort((a, b) =>
-      NAVI_PLAYERS.indexOf(a.name as typeof NAVI_PLAYERS[number]) -
-      NAVI_PLAYERS.indexOf(b.name as typeof NAVI_PLAYERS[number])
-    );
-});
+    .filter(player => {
+      if (team === Team.Navi) {
+        return naviPlayers.includes(player.name as NaviPlayer);
+      }
+      return vitalityPlayers.includes(player.name as VitalityPlayer);
+    })
+    .sort((a, b) => {
+      if (team === Team.Navi) {
+        return naviPlayers.indexOf(a.name as NaviPlayer) - naviPlayers.indexOf(b.name as NaviPlayer);
+      }
+      return vitalityPlayers.indexOf(a.name as VitalityPlayer) - vitalityPlayers.indexOf(b.name as VitalityPlayer);
+    });
+}
 
-const vitalityPlayers = computed(() => {
-  return allPlayerStats.value
-    .filter(player =>
-      VITALITY_PLAYERS.some(vitalityPlayer => vitalityPlayer === player.name)
-    )
-    .sort((a, b) =>
-      VITALITY_PLAYERS.indexOf(a.name as typeof VITALITY_PLAYERS[number]) -
-      VITALITY_PLAYERS.indexOf(b.name as typeof VITALITY_PLAYERS[number])
-    );
-});
+function calculateKDRatio(player: TransformedPlayerStats): string {
+  return (player.kills / Math.max(player.deaths, 1)).toFixed(2);
+}
 
-const transformPlayerStats = (): TransformedPlayerStats[] => {
+function calculateHeadshotPercentage(player: TransformedPlayerStats): string {
+  return (player.kills > 0 ? (player.headshots / player.kills) * 100 : 0).toFixed(1);
+}
+
+function getPlayerMostUsedWeapon(playerName: PlayerName): string {
+  const kills = killData.value.kills.filter(
+    (kill: KillEvent): kill is KillEvent & { killer: { name: PlayerName } } =>
+    kill.round <= currentRound.value && kill.killer.name === playerName
+  );
+
+  const weaponCounts: Record<string, number> = {};
+  kills.forEach(kill => {
+    weaponCounts[kill.weapon] = (weaponCounts[kill.weapon] || 0) + 1;
+  });
+
+  const mostUsedWeapon = Object.entries(weaponCounts)
+    .sort(([, a], [, b]) => b - a)[0];
+
+  return mostUsedWeapon ? `${mostUsedWeapon[0]}: ${mostUsedWeapon[1]}` : '-';
+}
+
+function transformPlayerStats(): TransformedPlayerStats[] {
   const stats: TransformedPlayerStats[] = [];
 
-  const processPlayer = (name: string) => {
-    let cumulativeStats = {
+  const processPlayer = (name: PlayerName) => {
+    const cumulativeStats: {
+      kills: number;
+      deaths: number;
+      headshots: number;
+      weapons: Record<string, number>;
+    } = {
       kills: 0,
       deaths: 0,
       headshots: 0,
-      weapons: {} as Record<string, number>
+      weapons: {}
     };
 
-    killData.value.kills.forEach(kill => {
+    killData.value.kills.forEach((kill: KillEvent) => {
       if (kill.round <= currentRound.value) {
         if (kill.killer.name === name) {
           cumulativeStats.kills++;
@@ -149,12 +187,6 @@ const transformPlayerStats = (): TransformedPlayerStats[] => {
       }
     });
 
-    const weaponBreakdown = Object.entries(cumulativeStats.weapons)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 1)
-      .map(([weapon, count]) => `${weapon}: ${count}`)
-      .join('') || '-';
-
     const headshotPercentage = cumulativeStats.kills > 0
       ? (cumulativeStats.headshots / cumulativeStats.kills) * 100
       : 0;
@@ -165,30 +197,27 @@ const transformPlayerStats = (): TransformedPlayerStats[] => {
       deaths: cumulativeStats.deaths,
       headshots: cumulativeStats.headshots,
       headshotPercentage,
-      weaponBreakdown
+      weaponBreakdown: getPlayerMostUsedWeapon(name)
     });
   };
 
   [...NAVI_PLAYERS, ...VITALITY_PLAYERS].forEach(processPlayer);
   return stats;
-};
+}
 
-const handleRoundChange = (event?: Event) => {
+function handleRoundChange(event?: Event): void {
   if (event && event.target instanceof HTMLInputElement) {
     currentRound.value = parseInt(event.target.value, 10);
   }
-
   allPlayerStats.value = transformPlayerStats();
-};
+}
 
 watchEffect(() => {
   if (killData.value?.roundStats && Array.isArray(killData.value.roundStats)) {
     roundData.value = killData.value.roundStats;
-
     if (!currentRound.value) {
       currentRound.value = 1;
     }
-
     handleRoundChange();
   }
 });
