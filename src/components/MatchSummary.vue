@@ -7,19 +7,21 @@
 
     <RoundHistory :rounds="matchData.roundHistory" />
 
-    <div class="flex items-center justify-between items-center text-white mb-8">
-      <div class="flex flex-col pl-8 pt-4 gap-4">
-        <img src="/img/navi_logopng.png" alt="navi_logo" class="w-24 h-24" />
-        <span class="text-lg font-semibold">{{ matchData.teams.CT }}</span>
+    <div class="flex items-center justify-center text-white mb-4 mt-8 gap-8">
+      <div class="flex items-center gap-4">
+        <div class="flex flex-col items-center gap-2 mr-28">
+          <img src="/img/navi_logopng.png" alt="navi_logo" class="w-24 h-24" />
+          <span class="text-lg font-semibold">{{ matchData.teams.CT }}</span>
+        </div>
       </div>
 
-      <div class="flex flex-col">
-        <span class="text-4xl font-bold">{{ matchData.finalScore }}</span>
-      </div>
+      <span class="text-4xl font-bold">{{ matchData.finalScore }}</span>
 
-      <div class="flex flex-col pr-8 pt-4 gap-4">
-        <img src="/img/vitality-logo-yellow.png" alt="vitality_logo" class="w-24 h-24" />
-        <span class="text-lg font-semibold">{{ matchData.teams.T }}</span>
+      <div class="flex items-center gap-4">
+        <div class="flex flex-col items-center gap-2 ml-28">
+          <img src="/img/vitality-logo-yellow.png" alt="vitality_logo" class="w-24 h-24" />
+          <span class="text-lg font-semibold">{{ matchData.teams.T }}</span>
+        </div>
       </div>
     </div>
   </div>

@@ -55,13 +55,13 @@
       <div class="mt-2">
         <div class="flex items-center gap-4">
           <span class="text-base font-bold text-white">
-            Round: {{ currentRound }}/{{ roundData?.length || 1 }}
+            Round: {{ currentRound }}/{{ roundNumber?.length || 1 }}
           </span>
           <input
             type="range"
             v-model="currentRound"
             :min="1"
-            :max="roundData?.length || 1"
+            :max="roundNumber?.length || 1"
             class="flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
             @change="handleRoundChange"
           >
@@ -74,20 +74,14 @@
 <script setup lang="ts">
 import { ref, computed, watchEffect, toRefs } from 'vue';
 import type {
-  TransformedPlayerStats,
-  PlayerRoundStats,
   MatchStats,
-  KillEvent
+  KillEvent,
+    PlayerStatsBase
 } from '@/data/types';
 
 enum Team {
   Navi = 'NAVI',
   Vitality = 'Vitality'
-}
-
-interface RoundSnapshot {
-  roundNumber: number;
-  playerStats: Record<string, PlayerRoundStats>;
 }
 
 type NaviPlayer = 's1mple' | 'b1t' | 'electronic' | 'Boombl4' | 'Perfecto';
@@ -106,13 +100,13 @@ const props = defineProps<Props>();
 const { killData } = toRefs(props);
 
 const currentRound = ref<number>(1);
-const roundData = ref<RoundSnapshot[]>([]);
-const allPlayerStats = ref<TransformedPlayerStats[]>([]);
+const roundNumber = ref<number[]>([]);
+const allPlayerStats = ref<PlayerStatsBase[]>([]);
 
 const isVitalityCT = computed((): boolean => currentRound.value < SIDE_SWITCH_ROUND);
 const isNaviCT = computed((): boolean => currentRound.value >= SIDE_SWITCH_ROUND);
 
-function getTeamPlayers<T extends Team>(team: T): TransformedPlayerStats[] {
+function getTeamPlayers<T extends Team>(team: T): PlayerStatsBase[] {
   const naviPlayers: readonly NaviPlayer[] = NAVI_PLAYERS;
   const vitalityPlayers: readonly VitalityPlayer[] = VITALITY_PLAYERS;
 
@@ -131,11 +125,22 @@ function getTeamPlayers<T extends Team>(team: T): TransformedPlayerStats[] {
     });
 }
 
-function calculateKDRatio(player: TransformedPlayerStats): string {
-  return (player.kills / Math.max(player.deaths, 1)).toFixed(2);
+function calculateKDRatio(player: PlayerStatsBase): string {
+
+  if (!player) {
+    return '0.00';
+  }
+
+  if (player.deaths === 0) {
+    return player.kills === 0 ? '0.00' : player.kills.toFixed(2);
+  }
+
+  const ratio = Math.max(0, player.kills) / Math.max(1, player.deaths);
+
+  return ratio.toFixed(2);
 }
 
-function calculateHeadshotPercentage(player: TransformedPlayerStats): string {
+function calculateHeadshotPercentage(player: PlayerStatsBase): string {
   return (player.kills > 0 ? (player.headshots / player.kills) * 100 : 0).toFixed(1);
 }
 
@@ -156,8 +161,8 @@ function getPlayerMostUsedWeapon(playerName: PlayerName): string {
   return mostUsedWeapon ? `${mostUsedWeapon[0]}: ${mostUsedWeapon[1]}` : '-';
 }
 
-function transformPlayerStats(): TransformedPlayerStats[] {
-  const stats: TransformedPlayerStats[] = [];
+function transformPlayerStats(): PlayerStatsBase[] {
+  const stats: PlayerStatsBase[] = [];
 
   const processPlayer = (name: PlayerName) => {
     const cumulativeStats: {
@@ -214,7 +219,7 @@ function handleRoundChange(event?: Event): void {
 
 watchEffect(() => {
   if (killData.value?.roundStats && Array.isArray(killData.value.roundStats)) {
-    roundData.value = killData.value.roundStats;
+    roundNumber.value = killData.value.roundStats.map(stat => stat.roundNumber);
     if (!currentRound.value) {
       currentRound.value = 1;
     }

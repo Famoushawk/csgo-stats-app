@@ -8,24 +8,13 @@ export interface PlayerStatsBase {
   deaths: number;
   headshots: number;
   headshotPercentage: number;
+  weaponBreakdown: string;
+  name: string;
 }
 
 export interface PlayerMatchStats extends PlayerStatsBase {
   weapons: WeaponStats;
   teamKills: number;
-}
-
-export interface PlayerRoundStats extends PlayerMatchStats {
-  position?: {
-    x: number;
-    y: number;
-    z: number;
-  };
-}
-
-export interface TransformedPlayerStats extends PlayerStatsBase {
-  name: string;
-  weaponBreakdown: string;
 }
 
 // Kill related types
@@ -35,12 +24,10 @@ export interface KillEvent {
   killer: {
     name: string;
     team: Team;
-    position: Position;
   };
   victim: {
     name: string;
     team: Team;
-    position: Position;
   };
   weapon: string;
   headshot: boolean;
@@ -52,12 +39,6 @@ export type WinCondition = 'elimination' | 'defuse' | 'explosion' | 'time';
 
 export interface RoundWithWinner extends Round {
   winnerSide?: Team;
-}
-
-export interface Position {
-  x: number;
-  y: number;
-  z: number;
 }
 
 export interface Round {
@@ -112,8 +93,5 @@ export interface MatchStats {
   kills: KillEvent[];
   roundStats: {
     roundNumber: number;
-    playerStats: {
-      [playerName: string]: PlayerRoundStats;
-    };
   }[];
 }

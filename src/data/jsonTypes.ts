@@ -1,4 +1,4 @@
-import {KillEvent, PlayerRoundStats, Teams, WeaponStats} from "@/data/types";
+import {KillEvent, Teams, WeaponStats} from "@/data/types";
 
 export interface MatchJsonResponse {
   teams: Teams;
@@ -32,7 +32,6 @@ export interface KillJsonResponse {
   kills: KillEvent[];
   round_stats: {
     round_number: number;
-    player_stats: { [key: string]: PlayerRoundStats };
   }[];
 }
 
