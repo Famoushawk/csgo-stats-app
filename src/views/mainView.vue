@@ -13,6 +13,7 @@ import MatchSummary from '@/components/MatchSummary.vue';
 import ScoreBoard from '@/components/ScoreBoard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
 import type { MatchSummaryData, MatchStats, RoundTimings, PlayerMatchStats, PlayerRoundStats } from '@/data/types';
+import type { MatchJsonResponse, KillJsonResponse, RoundJsonResponse } from "@/data/jsonTypes";
 
 const matchData = ref<MatchSummaryData>({
   teams: {
@@ -53,15 +54,15 @@ onMounted(async () => {
       fetch('/data/round_timings.json')
     ]);
 
-    const matchJson = await matchResponse.json();
-    const killJson = await killResponse.json();
-    const roundJson = await roundResponse.json();
+    const matchJson = await matchResponse.json() as MatchJsonResponse;
+    const killJson = await killResponse.json() as KillJsonResponse;
+    const roundJson = await roundResponse.json() as RoundJsonResponse;
 
     matchData.value = {
       teams: matchJson.teams,
       finalScore: matchJson.final_score,
       map: matchJson.map,
-      roundHistory: matchJson.round_history.map((round: any) => ({
+      roundHistory: matchJson.round_history.map((round) => ({
         roundNumber: round.round_number,
         winnerSide: round.winner_side,
         winnerTeam: round.winner_team,
@@ -77,7 +78,7 @@ onMounted(async () => {
       matchStartTime: killJson.match_start_time,
       totalKills: killJson.total_kills,
       totalRounds: killJson.total_rounds,
-      playerStats: Object.entries(killJson.player_stats).reduce((acc, [key, value]: [string, any]) => ({
+      playerStats: Object.entries(killJson.player_stats).reduce((acc, [key, value]) => ({
         ...acc,
         [key]: {
           kills: value.total_kills,
@@ -105,7 +106,7 @@ onMounted(async () => {
       longestRound: roundJson.longest_round,
       matchStartTime: roundJson.match_start_time,
       totalMatchDuration: roundJson.total_match_duration,
-      rounds: roundJson.rounds.map((round: any) => ({
+      rounds: roundJson.rounds.map((round) => ({
         roundNumber: round.round_number,
         startTime: round.start_time,
         endTime: round.end_time,

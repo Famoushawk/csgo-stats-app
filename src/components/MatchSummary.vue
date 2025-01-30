@@ -1,7 +1,7 @@
 <template>
   <div class="w-full rounded-lg">
     <div class="text-2xl font-bold flex flex-col items-center gap-4 text-center text-white mb-8">
-      <img src="../../public/img/Logo_Trophy.png" alt="blast_trophy" class="w-24 h-24 object-contain rounded-lg" />
+      <img src="/img/Logo_Trophy.png" alt="blast_trophy" class="w-24 h-24 object-contain rounded-lg" />
       <h2>NAVI GGBET vs. Team Vitality</h2>
     </div>
 
@@ -9,7 +9,7 @@
 
     <div class="flex items-center justify-between items-center text-white mb-8">
       <div class="flex flex-col pl-8 pt-4 gap-4">
-        <img src="../../public/img/navi_logopng.png" alt="navi_logo" class="w-24 h-24" />
+        <img src="/img/navi_logopng.png" alt="navi_logo" class="w-24 h-24" />
         <span class="text-lg font-semibold">{{ matchData.teams.CT }}</span>
       </div>
 
@@ -18,7 +18,7 @@
       </div>
 
       <div class="flex flex-col pr-8 pt-4 gap-4">
-        <img src="../../public/img/vitality-logo-yellow.png" alt="vitality_logo" class="w-24 h-24" />
+        <img src="/img/vitality-logo-yellow.png" alt="vitality_logo" class="w-24 h-24" />
         <span class="text-lg font-semibold">{{ matchData.teams.T }}</span>
       </div>
     </div>
@@ -27,18 +27,7 @@
 
 <script setup lang="ts">
 import RoundHistory from './RoundHistory.vue';
-import type { RoundHistory as RoundHistoryType } from '@/data/types';
-
-interface Teams {
-  CT: string;
-  T: string;
-}
-
-interface MatchSummaryData {
-  teams: Teams;
-  finalScore: string;
-  roundHistory: RoundHistoryType[];
-}
+import type { MatchSummaryData } from '@/data/types';
 
 defineProps<{
   matchData: MatchSummaryData;
