@@ -19,7 +19,7 @@ const matchData = ref<MatchSummaryData>({
     CT: 'NAVI GGBET',
     T: 'Team Vitality'
   },
-  finalScore: '6:16',
+  finalScore: '',
   map: 'de_nuke',
   roundHistory: [],
   winner: '',
