@@ -61,7 +61,7 @@
             :min="1"
             :max="roundData?.length || 1"
             class="flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
-            @input="handleRoundChange"
+            @change="handleRoundChange"
           >
         </div>
       </div>
@@ -70,17 +70,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watchEffect } from 'vue';
+import { ref, computed, watchEffect, toRefs } from 'vue';
 import type {
   TransformedPlayerStats,
-  PlayerMatchStats,
   PlayerRoundStats,
-    MatchStats
+  MatchStats
 } from '@/data/types';
 
 const props = defineProps<{
-  killData: MatchStats | null;
+  killData: MatchStats;
 }>();
+
+const { killData } = toRefs(props);
 
 const NAVI_PLAYERS = ['s1mple', 'b1t', 'electronic', 'Boombl4', 'Perfecto'] as const;
 const VITALITY_PLAYERS = ['ZywOo', 'apEX', 'misutaaa', 'Kyojin', 'shox '] as const;
@@ -96,71 +97,98 @@ interface RoundSnapshot {
 const currentRound = ref(1);
 const roundData = ref<RoundSnapshot[]>([]);
 const allPlayerStats = ref<TransformedPlayerStats[]>([]);
-const matchStats = ref<{[key: string]: PlayerMatchStats}>({});
 
 const isVitalityCT = computed(() => currentRound.value < SIDE_SWITCH_ROUND);
 const isNaviCT = computed(() => currentRound.value >= SIDE_SWITCH_ROUND);
 
-const naviPlayers = computed(() =>
-  allPlayerStats.value
-    .filter(player => NAVI_PLAYERS.includes(player.name as typeof NAVI_PLAYERS[number]))
-    .sort((a, b) => NAVI_PLAYERS.indexOf(a.name as typeof NAVI_PLAYERS[number]) -
-                    NAVI_PLAYERS.indexOf(b.name as typeof NAVI_PLAYERS[number]))
-);
+const naviPlayers = computed(() => {
+  return allPlayerStats.value
+    .filter(player =>
+      NAVI_PLAYERS.some(naviPlayer => naviPlayer === player.name)
+    )
+    .sort((a, b) =>
+      NAVI_PLAYERS.indexOf(a.name as typeof NAVI_PLAYERS[number]) -
+      NAVI_PLAYERS.indexOf(b.name as typeof NAVI_PLAYERS[number])
+    );
+});
 
-const vitalityPlayers = computed(() =>
-  allPlayerStats.value
-    .filter(player => VITALITY_PLAYERS.includes(player.name as typeof VITALITY_PLAYERS[number]))
-    .sort((a, b) => VITALITY_PLAYERS.indexOf(a.name as typeof VITALITY_PLAYERS[number]) -
-                    VITALITY_PLAYERS.indexOf(b.name as typeof VITALITY_PLAYERS[number]))
-);
+const vitalityPlayers = computed(() => {
+  return allPlayerStats.value
+    .filter(player =>
+      VITALITY_PLAYERS.some(vitalityPlayer => vitalityPlayer === player.name)
+    )
+    .sort((a, b) =>
+      VITALITY_PLAYERS.indexOf(a.name as typeof VITALITY_PLAYERS[number]) -
+      VITALITY_PLAYERS.indexOf(b.name as typeof VITALITY_PLAYERS[number])
+    );
+});
 
-const transformPlayerStats = (roundSnapshot: RoundSnapshot): TransformedPlayerStats[] => {
+const transformPlayerStats = (): TransformedPlayerStats[] => {
   const stats: TransformedPlayerStats[] = [];
 
   const processPlayer = (name: string) => {
-    const roundStats = roundSnapshot.playerStats[name] || {
+    let cumulativeStats = {
       kills: 0,
       deaths: 0,
       headshots: 0,
-      headshotPercentage: 0,
-      weapons: {}
+      weapons: {} as Record<string, number>
     };
+
+    killData.value.kills.forEach(kill => {
+      if (kill.round <= currentRound.value) {
+        if (kill.killer.name === name) {
+          cumulativeStats.kills++;
+          if (kill.headshot) {
+            cumulativeStats.headshots++;
+          }
+          cumulativeStats.weapons[kill.weapon] = (cumulativeStats.weapons[kill.weapon] || 0) + 1;
+        }
+        if (kill.victim.name === name) {
+          cumulativeStats.deaths++;
+        }
+      }
+    });
+
+    const weaponBreakdown = Object.entries(cumulativeStats.weapons)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 1)
+      .map(([weapon, count]) => `${weapon}: ${count}`)
+      .join('') || '-';
+
+    const headshotPercentage = cumulativeStats.kills > 0
+      ? (cumulativeStats.headshots / cumulativeStats.kills) * 100
+      : 0;
 
     stats.push({
       name,
-      kills: roundStats.kills,
-      deaths: roundStats.deaths,
-      headshots: roundStats.headshots,
-      headshotPercentage: roundStats.kills > 0 ? (roundStats.headshots / roundStats.kills * 100) : 0,
-      weaponBreakdown: Object.entries(roundStats.weapons || {})
-        .reduce((prev, curr) => prev[1] > curr[1] ? prev : curr, ['', 0])
-        .filter(v => v !== 0)
-        .join(': ') || '-'
+      kills: cumulativeStats.kills,
+      deaths: cumulativeStats.deaths,
+      headshots: cumulativeStats.headshots,
+      headshotPercentage,
+      weaponBreakdown
     });
   };
 
   [...NAVI_PLAYERS, ...VITALITY_PLAYERS].forEach(processPlayer);
-
   return stats;
 };
 
-const handleRoundChange = () => {
-  if (roundData.value && roundData.value.length > 0) {
-    const selectedRoundData = roundData.value[currentRound.value - 1];
-    if (selectedRoundData) {
-      allPlayerStats.value = transformPlayerStats(selectedRoundData);
-    }
+const handleRoundChange = (event?: Event) => {
+  if (event && event.target instanceof HTMLInputElement) {
+    currentRound.value = parseInt(event.target.value, 10);
   }
+
+  allPlayerStats.value = transformPlayerStats();
 };
 
 watchEffect(() => {
-  if (props.killData?.roundStats) {
-    roundData.value = props.killData.roundStats.map(round => ({
-      roundNumber: round.roundNumber,
-      playerStats: round.playerStats
-    }));
-    matchStats.value = props.killData.playerStats;
+  if (killData.value?.roundStats && Array.isArray(killData.value.roundStats)) {
+    roundData.value = killData.value.roundStats;
+
+    if (!currentRound.value) {
+      currentRound.value = 1;
+    }
+
     handleRoundChange();
   }
 });

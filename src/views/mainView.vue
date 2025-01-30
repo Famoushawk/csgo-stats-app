@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-8 w-full max-w-7xl mx-auto p-8">
     <MatchSummary v-if="matchData" :match-data="matchData" />
-    <PlayerStats :kill-data="killData" />
+    <ScoreBoard v-if="killData.roundStats.length > 0" :kill-data="killData"/>
     <RoundAnalysis :round-data="roundData" :match-data="matchData"
     />
   </div>
@@ -10,9 +10,9 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import MatchSummary from '@/components/MatchSummary.vue';
-import PlayerStats from '@/components/ScoreBoard.vue';
+import ScoreBoard from '@/components/ScoreBoard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
-import type { MatchSummaryData, MatchStats, RoundTimings } from '@/data/types';
+import type { MatchSummaryData, MatchStats, RoundTimings, PlayerMatchStats, PlayerRoundStats } from '@/data/types';
 
 const matchData = ref<MatchSummaryData>({
   teams: {
@@ -26,7 +26,15 @@ const matchData = ref<MatchSummaryData>({
   totalRounds: 0
 });
 
-const killData = ref<MatchStats | null>(null);
+const killData = ref<MatchStats>({
+  liveStartTime: '',
+  matchStartTime: null,
+  totalKills: 0,
+  totalRounds: 0,
+  playerStats: {},
+  kills: [],
+  roundStats: []
+});
 const roundData = ref<RoundTimings>({
   totalRounds: 0,
   averageRoundDuration: 0,
@@ -77,11 +85,17 @@ onMounted(async () => {
           headshots: value.headshots,
           headshotPercentage: value.headshot_percentage,
           weapons: value.weapons,
-          teamKills: value.team_kills || 0
+          teamKills: value.team_kills ?? 0
         }
-      }), {}),
+      }), {} as { [key: string]: PlayerMatchStats }),
       kills: killJson.kills,
-      roundStats: killJson.round_stats
+      roundStats: killJson.round_stats.map((round: {
+        round_number: number;
+        player_stats: { [key: string]: PlayerRoundStats }
+      }) => ({
+        roundNumber: round.round_number,
+        playerStats: round.player_stats || {}
+      }))
     };
 
     roundData.value = {
