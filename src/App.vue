@@ -1,9 +1,7 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div id="app" class="min-h-screen bg-cover bg-center bg-no-repeat" :style="{ backgroundImage: 'url(/img/BP2025_Background_06.png)' }">
+    <router-view/>
+  </div>
 </template>
 
 <style lang="scss">
@@ -20,7 +18,7 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #fff;
 
     &.router-link-exact-active {
       color: #42b983;

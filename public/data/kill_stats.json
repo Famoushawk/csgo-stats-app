@@ -1,0 +1,6505 @@
+{
+  "live_start_time": "20:41:09",
+  "match_start_time": null,
+  "total_kills": 149,
+  "total_rounds": 23,
+  "player_stats": {
+    "ZywOo": {
+      "total_kills": 21,
+      "deaths": 14,
+      "headshots": 9,
+      "weapons": {
+        "usp_silencer": 3,
+        "m4a1_silencer": 4,
+        "awp": 3,
+        "taser": 1,
+        "ak47": 9,
+        "p250": 1
+      },
+      "headshot_percentage": 42.86,
+      "team_kills": 0
+    },
+    "s1mple": {
+      "total_kills": 18,
+      "deaths": 17,
+      "headshots": 7,
+      "weapons": {
+        "deagle": 2,
+        "ak47": 6,
+        "inferno": 1,
+        "tec9": 1,
+        "awp": 2,
+        "usp_silencer": 1,
+        "m4a1_silencer": 5
+      },
+      "headshot_percentage": 38.89,
+      "team_kills": 0
+    },
+    "Perfecto": {
+      "total_kills": 10,
+      "deaths": 17,
+      "headshots": 5,
+      "weapons": {
+        "tec9": 1,
+        "deagle": 2,
+        "ak47": 3,
+        "galilar": 2,
+        "elite": 1,
+        "famas": 1
+      },
+      "headshot_percentage": 50.0,
+      "team_kills": 0
+    },
+    "b1t": {
+      "total_kills": 17,
+      "deaths": 18,
+      "headshots": 14,
+      "weapons": {
+        "tec9": 2,
+        "galilar": 3,
+        "ak47": 4,
+        "usp_silencer": 1,
+        "famas": 6,
+        "m4a1": 1
+      },
+      "headshot_percentage": 82.35,
+      "team_kills": 0
+    },
+    "electronic": {
+      "total_kills": 9,
+      "deaths": 16,
+      "headshots": 4,
+      "weapons": {
+        "glock": 1,
+        "ak47": 5,
+        "mac10": 1,
+        "m4a1_silencer": 2
+      },
+      "headshot_percentage": 44.44,
+      "team_kills": 0
+    },
+    "shox ": {
+      "total_kills": 20,
+      "deaths": 17,
+      "headshots": 9,
+      "weapons": {
+        "usp_silencer": 1,
+        "m4a1_silencer": 12,
+        "ak47": 7
+      },
+      "headshot_percentage": 45.0,
+      "team_kills": 0
+    },
+    "Boombl4": {
+      "total_kills": 9,
+      "deaths": 18,
+      "headshots": 6,
+      "weapons": {
+        "glock": 2,
+        "galilar": 3,
+        "m4a1_silencer": 1,
+        "tec9": 1,
+        "elite": 2
+      },
+      "headshot_percentage": 66.67,
+      "team_kills": 0
+    },
+    "misutaaa": {
+      "total_kills": 15,
+      "deaths": 9,
+      "headshots": 5,
+      "weapons": {
+        "usp_silencer": 1,
+        "m4a1_silencer": 8,
+        "deagle": 1,
+        "ak47": 5
+      },
+      "headshot_percentage": 33.33,
+      "team_kills": 0
+    },
+    "apEX": {
+      "total_kills": 20,
+      "deaths": 10,
+      "headshots": 9,
+      "weapons": {
+        "m4a1_silencer": 14,
+        "ak47": 6
+      },
+      "headshot_percentage": 45.0,
+      "team_kills": 0
+    },
+    "Kyojin": {
+      "total_kills": 10,
+      "deaths": 13,
+      "headshots": 6,
+      "weapons": {
+        "mp9": 1,
+        "m4a1_silencer": 1,
+        "ak47": 6,
+        "deagle": 2
+      },
+      "headshot_percentage": 60.0,
+      "team_kills": 0
+    }
+  },
+  "kills": [
+    {
+      "round": 1,
+      "timestamp": "20:41:49",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1186,
+          "y": -1862,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 181,
+          "y": -2121,
+          "z": -370
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:41:49",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1186,
+          "y": -1861,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 151,
+          "y": -2074,
+          "z": -352
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:42:05",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 788,
+          "y": -2306,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1407,
+          "y": -2389,
+          "z": -413
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:42:16",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1415,
+          "y": -2416,
+          "z": -482
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 702,
+          "y": -2364,
+          "z": -352
+        }
+      },
+      "weapon": "glock",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:42:17",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1121,
+          "y": -2439,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1468,
+          "y": -2432,
+          "z": -454
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:42:21",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": -6,
+          "y": -1843,
+          "z": -40
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 592,
+          "y": -2130,
+          "z": -265
+        }
+      },
+      "weapon": "glock",
+      "headshot": true
+    },
+    {
+      "round": 1,
+      "timestamp": "20:43:11",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 406,
+          "y": -1332,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 427,
+          "y": -105,
+          "z": -576
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": false
+    },
+    {
+      "round": 2,
+      "timestamp": "20:44:21",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 594,
+          "y": 625,
+          "z": -479
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 113,
+          "y": -151,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 2,
+      "timestamp": "20:44:21",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 12,
+          "y": -453,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 559,
+          "y": 633,
+          "z": -416
+        }
+      },
+      "weapon": "deagle",
+      "headshot": true
+    },
+    {
+      "round": 2,
+      "timestamp": "20:44:22",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1986,
+          "y": -1933,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 169,
+          "y": -2145,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 2,
+      "timestamp": "20:44:45",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 927,
+          "y": -724,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 731,
+          "y": -593,
+          "z": -704
+        }
+      },
+      "weapon": "deagle",
+      "headshot": true
+    },
+    {
+      "round": 2,
+      "timestamp": "20:45:04",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 739,
+          "y": 175,
+          "z": -614
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 871,
+          "y": -108,
+          "z": -576
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 2,
+      "timestamp": "20:45:05",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1137,
+          "y": -1043,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 994,
+          "y": -969,
+          "z": -722
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 2,
+      "timestamp": "20:45:07",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 384,
+          "y": -1305,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 355,
+          "y": -693,
+          "z": -704
+        }
+      },
+      "weapon": "mp9",
+      "headshot": true
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:00",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1484,
+          "y": -2053,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 599,
+          "y": -1814,
+          "z": -344
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:17",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1961,
+          "y": -1880,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 80,
+          "y": -2050,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:18",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 296,
+          "y": -1813,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1961,
+          "y": -1879,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:36",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1464,
+          "y": -2042,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1846,
+          "y": -1858,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:44",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1610,
+          "y": -371,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1438,
+          "y": -1707,
+          "z": -351
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:48",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": -242,
+          "y": -1969,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 699,
+          "y": -2412,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 3,
+      "timestamp": "20:47:58",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1077,
+          "y": -334,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1459,
+          "y": -570,
+          "z": -370
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:41",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 608,
+          "y": -639,
+          "z": -207
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 447,
+          "y": -874,
+          "z": -303
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:47",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": -192,
+          "y": -607,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 211,
+          "y": -1042,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:49",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 971,
+          "y": -791,
+          "z": -128
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 436,
+          "y": -829,
+          "z": -328
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:50",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 634,
+          "y": -1228,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 903,
+          "y": -656,
+          "z": -352
+        }
+      },
+      "weapon": "tec9",
+      "headshot": true
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:50",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 958,
+          "y": -758,
+          "z": -128
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 629,
+          "y": -1226,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:51",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 711,
+          "y": -470,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 978,
+          "y": -730,
+          "z": -78
+        }
+      },
+      "weapon": "tec9",
+      "headshot": false
+    },
+    {
+      "round": 4,
+      "timestamp": "20:48:52",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 279,
+          "y": -1063,
+          "z": -392
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 713,
+          "y": -467,
+          "z": -370
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:01",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1126,
+          "y": -1895,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1064,
+          "y": -1193,
+          "z": -647
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:03",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1050,
+          "y": -1359,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1176,
+          "y": -1745,
+          "z": -571
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:15",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1857,
+          "y": -1639,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1238,
+          "y": -2066,
+          "z": -344
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:26",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 207,
+          "y": -1227,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 897,
+          "y": -1311,
+          "z": -352
+        }
+      },
+      "weapon": "inferno",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:29",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 689,
+          "y": -342,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 347,
+          "y": -936,
+          "z": -290
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:33",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 509,
+          "y": -600,
+          "z": -400
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 561,
+          "y": -1226,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:34",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 960,
+          "y": -590,
+          "z": -415
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 541,
+          "y": -550,
+          "z": -343
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 5,
+      "timestamp": "20:50:35",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 936,
+          "y": -290,
+          "z": -128
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 954,
+          "y": -585,
+          "z": -351
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:06",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 468,
+          "y": -1452,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 452,
+          "y": -1405,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:22",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1469,
+          "y": -2448,
+          "z": -518
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1579,
+          "y": -2307,
+          "z": -536
+        }
+      },
+      "weapon": "mac10",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:41",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 358,
+          "y": -1470,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 408,
+          "y": -1387,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:42",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 263,
+          "y": -1267,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 368,
+          "y": -1457,
+          "z": -352
+        }
+      },
+      "weapon": "deagle",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:53",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 943,
+          "y": -1174,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 401,
+          "y": -1331,
+          "z": -708
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:54",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 876,
+          "y": 53,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 340,
+          "y": -1102,
+          "z": -704
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 6,
+      "timestamp": "20:52:59",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1074,
+          "y": -1040,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 340,
+          "y": -573,
+          "z": -572
+        }
+      },
+      "weapon": "tec9",
+      "headshot": true
+    },
+    {
+      "round": 6,
+      "timestamp": "20:53:02",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 790,
+          "y": -1305,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 952,
+          "y": -944,
+          "z": -722
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 7,
+      "timestamp": "20:53:38",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 551,
+          "y": -1420,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 66,
+          "y": -1204,
+          "z": -357
+        }
+      },
+      "weapon": "awp",
+      "headshot": false
+    },
+    {
+      "round": 7,
+      "timestamp": "20:53:47",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": -455,
+          "y": -1040,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 220,
+          "y": -1250,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 7,
+      "timestamp": "20:53:53",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 887,
+          "y": -1698,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1451,
+          "y": -1218,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 7,
+      "timestamp": "20:53:57",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 78,
+          "y": 78,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 110,
+          "y": -292,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 7,
+      "timestamp": "20:53:57",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 200,
+          "y": -237,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 92,
+          "y": 79,
+          "z": -369
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 7,
+      "timestamp": "20:54:13",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1126,
+          "y": -398,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 326,
+          "y": -1313,
+          "z": -704
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 8,
+      "timestamp": "20:56:50",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 781,
+          "y": -1751,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1552,
+          "y": -1190,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 8,
+      "timestamp": "20:56:53",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 1067,
+          "y": -1891,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1531,
+          "y": -2013,
+          "z": -576
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:17",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 272,
+          "y": -1110,
+          "z": -395
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 285,
+          "y": -933,
+          "z": -328
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:19",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 728,
+          "y": -1294,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 443,
+          "y": -789,
+          "z": -328
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:20",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 931,
+          "y": -1431,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 729,
+          "y": -1294,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:20",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 929,
+          "y": -1419,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 449,
+          "y": -1219,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:22",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 17,
+          "y": -1221,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 937,
+          "y": -1367,
+          "z": -368
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 8,
+      "timestamp": "20:57:31",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 241,
+          "y": -1087,
+          "z": -415
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 366,
+          "y": -959,
+          "z": -328
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:28",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 172,
+          "y": -1305,
+          "z": -776
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 943,
+          "y": -1223,
+          "z": -594
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:31",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1384,
+          "y": -798,
+          "z": -703
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1065,
+          "y": -1176,
+          "z": -640
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:42",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": -131,
+          "y": -410,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": -54,
+          "y": -1175,
+          "z": -352
+        }
+      },
+      "weapon": "awp",
+      "headshot": false
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:42",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1106,
+          "y": -411,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 361,
+          "y": -1330,
+          "z": -704
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:51",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1269,
+          "y": -936,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1285,
+          "y": -652,
+          "z": -576
+        }
+      },
+      "weapon": "awp",
+      "headshot": false
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:53",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1130,
+          "y": -1811,
+          "z": -635
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1179,
+          "y": -1354,
+          "z": -576
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 9,
+      "timestamp": "20:59:59",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 568,
+          "y": -1222,
+          "z": -753
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 848,
+          "y": 94,
+          "z": -576
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 9,
+      "timestamp": "21:00:01",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1169,
+          "y": -921,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 594,
+          "y": -1293,
+          "z": -706
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 10,
+      "timestamp": "21:01:25",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 481,
+          "y": -1816,
+          "z": -408
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 347,
+          "y": -2120,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 10,
+      "timestamp": "21:01:30",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 810,
+          "y": -2187,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 272,
+          "y": -2022,
+          "z": -274
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 10,
+      "timestamp": "21:01:31",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 833,
+          "y": -2108,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 149,
+          "y": -2042,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 10,
+      "timestamp": "21:01:33",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1870,
+          "y": -1681,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 624,
+          "y": -2399,
+          "z": -352
+        }
+      },
+      "weapon": "awp",
+      "headshot": false
+    },
+    {
+      "round": 10,
+      "timestamp": "21:02:12",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 410,
+          "y": -1259,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1245,
+          "y": -2049,
+          "z": -331
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 10,
+      "timestamp": "21:02:14",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 921,
+          "y": -288,
+          "z": -128
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 511,
+          "y": -1258,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 11,
+      "timestamp": "21:03:25",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1280,
+          "y": -1972,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 1022,
+          "y": -1577,
+          "z": -586
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 11,
+      "timestamp": "21:03:36",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1847,
+          "y": -1532,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1675,
+          "y": -1680,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 11,
+      "timestamp": "21:03:52",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 361,
+          "y": -1912,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 1475,
+          "y": -1680,
+          "z": -369
+        }
+      },
+      "weapon": "galilar",
+      "headshot": false
+    },
+    {
+      "round": 11,
+      "timestamp": "21:04:21",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 686,
+          "y": -1554,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 884,
+          "y": -488,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:02",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": -183,
+          "y": -970,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 8,
+          "y": -300,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:10",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 419,
+          "y": 64,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 723,
+          "y": -1170,
+          "z": -723
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:24",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 937,
+          "y": -669,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 390,
+          "y": -381,
+          "z": -593
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:27",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 444,
+          "y": -305,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1376,
+          "y": -714,
+          "z": -583
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:29",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 850,
+          "y": -583,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 362,
+          "y": -777,
+          "z": -590
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:29",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 341,
+          "y": -534,
+          "z": -633
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 849,
+          "y": -587,
+          "z": -722
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:34",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 120,
+          "y": -1326,
+          "z": -776
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 751,
+          "y": -1254,
+          "z": -705
+        }
+      },
+      "weapon": "galilar",
+      "headshot": false
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:40",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 241,
+          "y": -1342,
+          "z": -776
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 615,
+          "y": -1292,
+          "z": -724
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 12,
+      "timestamp": "21:07:42",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 244,
+          "y": -1348,
+          "z": -776
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 696,
+          "y": -1270,
+          "z": -724
+        }
+      },
+      "weapon": "glock",
+      "headshot": true
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:06",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 601,
+          "y": -1113,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 578,
+          "y": -1219,
+          "z": -352
+        }
+      },
+      "weapon": "taser",
+      "headshot": false
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:06",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 737,
+          "y": -1604,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 591,
+          "y": -1108,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:07",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 855,
+          "y": -630,
+          "z": -400
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 588,
+          "y": -1384,
+          "z": -352
+        }
+      },
+      "weapon": "deagle",
+      "headshot": true
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:07",
+      "killer": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 844,
+          "y": -636,
+          "z": -400
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 710,
+          "y": -1556,
+          "z": -370
+        }
+      },
+      "weapon": "deagle",
+      "headshot": true
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:11",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 285,
+          "y": -944,
+          "z": -392
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 877,
+          "y": -707,
+          "z": -336
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:14",
+      "killer": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 853,
+          "y": -362,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 284,
+          "y": -1004,
+          "z": -346
+        }
+      },
+      "weapon": "deagle",
+      "headshot": false
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:14",
+      "killer": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 637,
+          "y": -1610,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 885,
+          "y": -619,
+          "z": -337
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 13,
+      "timestamp": "21:09:15",
+      "killer": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 406,
+          "y": -1295,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 632,
+          "y": -1487,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:03",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1259,
+          "y": -1526,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "TERRORIST",
+        "position": {
+          "x": 319,
+          "y": -2174,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:13",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 516,
+          "y": -1652,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 591,
+          "y": -1523,
+          "z": -353
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:28",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 831,
+          "y": -1327,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 410,
+          "y": -1245,
+          "z": -370
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:34",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": -48,
+          "y": -1273,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 943,
+          "y": -1244,
+          "z": -369
+        }
+      },
+      "weapon": "galilar",
+      "headshot": true
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:54",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": -466,
+          "y": -881,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": -60,
+          "y": -1150,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 14,
+      "timestamp": "21:10:54",
+      "killer": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": -466,
+          "y": -881,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 36,
+          "y": -1211,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 15,
+      "timestamp": "21:11:46",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 374,
+          "y": -2040,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "CT",
+        "position": {
+          "x": 1439,
+          "y": -2035,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 15,
+      "timestamp": "21:11:52",
+      "killer": {
+        "name": "s1mple",
+        "team": "TERRORIST",
+        "position": {
+          "x": 880,
+          "y": -2441,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "CT",
+        "position": {
+          "x": 1317,
+          "y": -385,
+          "z": -64
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 15,
+      "timestamp": "21:11:55",
+      "killer": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1055,
+          "y": -1387,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "CT",
+        "position": {
+          "x": 1114,
+          "y": -1210,
+          "z": -617
+        }
+      },
+      "weapon": "tec9",
+      "headshot": true
+    },
+    {
+      "round": 15,
+      "timestamp": "21:11:57",
+      "killer": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 507,
+          "y": -1429,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1062,
+          "y": -1379,
+          "z": -562
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 15,
+      "timestamp": "21:12:00",
+      "killer": {
+        "name": "Perfecto",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1189,
+          "y": -1674,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "CT",
+        "position": {
+          "x": 640,
+          "y": -1536,
+          "z": -544
+        }
+      },
+      "weapon": "deagle",
+      "headshot": false
+    },
+    {
+      "round": 15,
+      "timestamp": "21:12:27",
+      "killer": {
+        "name": "Boombl4",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1365,
+          "y": -320,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "CT",
+        "position": {
+          "x": 1177,
+          "y": -306,
+          "z": -352
+        }
+      },
+      "weapon": "tec9",
+      "headshot": true
+    },
+    {
+      "round": 16,
+      "timestamp": "21:16:19",
+      "killer": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 218,
+          "y": -336,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": -142,
+          "y": -408,
+          "z": -352
+        }
+      },
+      "weapon": "elite",
+      "headshot": true
+    },
+    {
+      "round": 16,
+      "timestamp": "21:16:20",
+      "killer": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 237,
+          "y": -448,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": -187,
+          "y": -362,
+          "z": -307
+        }
+      },
+      "weapon": "elite",
+      "headshot": false
+    },
+    {
+      "round": 16,
+      "timestamp": "21:16:31",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 1279,
+          "y": -861,
+          "z": -408
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1167,
+          "y": -2441,
+          "z": -352
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": true
+    },
+    {
+      "round": 16,
+      "timestamp": "21:16:31",
+      "killer": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 716,
+          "y": -503,
+          "z": -411
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 401,
+          "y": -883,
+          "z": -328
+        }
+      },
+      "weapon": "elite",
+      "headshot": true
+    },
+    {
+      "round": 16,
+      "timestamp": "21:16:44",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 819,
+          "y": -17,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 968,
+          "y": -516,
+          "z": -576
+        }
+      },
+      "weapon": "usp_silencer",
+      "headshot": false
+    },
+    {
+      "round": 17,
+      "timestamp": "21:18:42",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 1215,
+          "y": 7,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 302,
+          "y": 20,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 17,
+      "timestamp": "21:18:42",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 555,
+          "y": 322,
+          "z": -372
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 94,
+          "y": -98,
+          "z": -352
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 17,
+      "timestamp": "21:18:43",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 1213,
+          "y": 3,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 82,
+          "y": 110,
+          "z": -370
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 17,
+      "timestamp": "21:18:44",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 546,
+          "y": 319,
+          "z": -320
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": 397,
+          "y": 24,
+          "z": -352
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 17,
+      "timestamp": "21:18:44",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 537,
+          "y": 313,
+          "z": -320
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 826,
+          "y": -172,
+          "z": -370
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:19:38",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 1477,
+          "y": -2161,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 975,
+          "y": -2456,
+          "z": -352
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:14",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1520,
+          "y": -796,
+          "z": -418
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 1330,
+          "y": -398,
+          "z": -64
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:20",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1190,
+          "y": -142,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 589,
+          "y": 337,
+          "z": -327
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:39",
+      "killer": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 294,
+          "y": -989,
+          "z": -392
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 909,
+          "y": -306,
+          "z": -64
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:41",
+      "killer": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": -255,
+          "y": -960,
+          "z": -414
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 94,
+          "y": -715,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:52",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": -223,
+          "y": -1265,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 137,
+          "y": -943,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:55",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 436,
+          "y": -1372,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 185,
+          "y": -1211,
+          "z": -370
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 18,
+      "timestamp": "21:20:57",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 459,
+          "y": -1382,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": 869,
+          "y": -635,
+          "z": -293
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 18,
+      "timestamp": "21:21:11",
+      "killer": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 956,
+          "y": -582,
+          "z": -415
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 457,
+          "y": -1362,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 19,
+      "timestamp": "21:22:42",
+      "killer": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 988,
+          "y": -2091,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 1369,
+          "y": -1756,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 19,
+      "timestamp": "21:22:48",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 855,
+          "y": -1632,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 771,
+          "y": -1694,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 19,
+      "timestamp": "21:22:50",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 730,
+          "y": -1678,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 432,
+          "y": -953,
+          "z": -195
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 19,
+      "timestamp": "21:22:51",
+      "killer": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 624,
+          "y": -1526,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1181,
+          "y": -1679,
+          "z": -576
+        }
+      },
+      "weapon": "awp",
+      "headshot": false
+    },
+    {
+      "round": 19,
+      "timestamp": "21:22:56",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 628,
+          "y": -1420,
+          "z": -608
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 618,
+          "y": -1593,
+          "z": -571
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 19,
+      "timestamp": "21:23:05",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 685,
+          "y": -637,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1161,
+          "y": -1141,
+          "z": -663
+        }
+      },
+      "weapon": "m4a1",
+      "headshot": false
+    },
+    {
+      "round": 19,
+      "timestamp": "21:23:05",
+      "killer": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1013,
+          "y": -1014,
+          "z": -768
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 685,
+          "y": -637,
+          "z": -704
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 20,
+      "timestamp": "21:23:49",
+      "killer": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 716,
+          "y": -2020,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 1421,
+          "y": -1112,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 20,
+      "timestamp": "21:24:02",
+      "killer": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1119,
+          "y": -1495,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 1298,
+          "y": -1398,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 20,
+      "timestamp": "21:24:04",
+      "killer": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1042,
+          "y": -1276,
+          "z": -408
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 1200,
+          "y": -628,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 20,
+      "timestamp": "21:24:10",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1383,
+          "y": -2076,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 658,
+          "y": -1494,
+          "z": -370
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 20,
+      "timestamp": "21:24:28",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 715,
+          "y": -1538,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 488,
+          "y": -853,
+          "z": -346
+        }
+      },
+      "weapon": "p250",
+      "headshot": false
+    },
+    {
+      "round": 21,
+      "timestamp": "21:26:12",
+      "killer": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 1070,
+          "y": -1767,
+          "z": -635
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 1556,
+          "y": -2011,
+          "z": -594
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": false
+    },
+    {
+      "round": 21,
+      "timestamp": "21:26:25",
+      "killer": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": -41,
+          "y": -1169,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 458,
+          "y": -1366,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 21,
+      "timestamp": "21:26:28",
+      "killer": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 253,
+          "y": -1092,
+          "z": -407
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 781,
+          "y": -343,
+          "z": -352
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 21,
+      "timestamp": "21:26:28",
+      "killer": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 704,
+          "y": -1550,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 935,
+          "y": -729,
+          "z": -369
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:29:13",
+      "killer": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 1917,
+          "y": -1493,
+          "z": -416
+        }
+      },
+      "victim": {
+        "name": "apEX",
+        "team": "TERRORIST",
+        "position": {
+          "x": 612,
+          "y": -1572,
+          "z": -176
+        }
+      },
+      "weapon": "m4a1_silencer",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:00",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 902,
+          "y": -1043,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "Kyojin",
+        "team": "TERRORIST",
+        "position": {
+          "x": 766,
+          "y": -1117,
+          "z": -705
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:02",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 942,
+          "y": -1204,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "shox ",
+        "team": "TERRORIST",
+        "position": {
+          "x": 298,
+          "y": -1312,
+          "z": -718
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:03",
+      "killer": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 953,
+          "y": -439,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "s1mple",
+        "team": "CT",
+        "position": {
+          "x": 934,
+          "y": -265,
+          "z": -593
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:03",
+      "killer": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 933,
+          "y": -1288,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "misutaaa",
+        "team": "TERRORIST",
+        "position": {
+          "x": 957,
+          "y": -432,
+          "z": -576
+        }
+      },
+      "weapon": "famas",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:04",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 966,
+          "y": -585,
+          "z": -640
+        }
+      },
+      "victim": {
+        "name": "b1t",
+        "team": "CT",
+        "position": {
+          "x": 798,
+          "y": -1313,
+          "z": -576
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:15",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 740,
+          "y": -1146,
+          "z": -769
+        }
+      },
+      "victim": {
+        "name": "Boombl4",
+        "team": "CT",
+        "position": {
+          "x": 1127,
+          "y": -880,
+          "z": -688
+        }
+      },
+      "weapon": "ak47",
+      "headshot": false
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:15",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 734,
+          "y": -1137,
+          "z": -769
+        }
+      },
+      "victim": {
+        "name": "Perfecto",
+        "team": "CT",
+        "position": {
+          "x": 1043,
+          "y": -956,
+          "z": -722
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    },
+    {
+      "round": 22,
+      "timestamp": "21:30:17",
+      "killer": {
+        "name": "ZywOo",
+        "team": "TERRORIST",
+        "position": {
+          "x": 715,
+          "y": -1029,
+          "z": -772
+        }
+      },
+      "victim": {
+        "name": "electronic",
+        "team": "CT",
+        "position": {
+          "x": 341,
+          "y": -1244,
+          "z": -706
+        }
+      },
+      "weapon": "ak47",
+      "headshot": true
+    }
+  ],
+  "round_stats": [
+    {
+      "round_number": 1,
+      "start_time": "20:41:31",
+      "end_time": "20:43:11",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 3,
+          "deaths": 1,
+          "headshots": 3,
+          "weapons": {
+            "usp_silencer": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 0,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 0,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 0,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 1,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 1,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 1,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 1,
+          "deaths": 0,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "start_time": "20:43:36",
+      "end_time": "20:45:36",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 4,
+          "deaths": 1,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 2,
+          "deaths": 2,
+          "headshots": 2,
+          "weapons": {
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 0,
+          "deaths": 2,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 0,
+          "deaths": 2,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 1,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 1,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 1,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 2,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 2,
+          "deaths": 0,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 1,
+          "deaths": 0,
+          "headshots": 1,
+          "weapons": {
+            "mp9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "start_time": "20:46:37",
+      "end_time": "20:47:58",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 6,
+          "deaths": 2,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 3,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 0,
+          "deaths": 3,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 0,
+          "deaths": 3,
+          "headshots": 0,
+          "weapons": {},
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 2,
+          "deaths": 3,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 3,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 1,
+          "deaths": 3,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 2,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 2,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 2,
+          "deaths": 0,
+          "headshots": 1,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "start_time": "20:48:23",
+      "end_time": "20:48:52",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 6,
+          "deaths": 2,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 3,
+          "deaths": 4,
+          "headshots": 2,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 1,
+          "deaths": 4,
+          "headshots": 0,
+          "weapons": {
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 1,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 2,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 5,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 2,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 1,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 4,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 2,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 3,
+          "deaths": 1,
+          "headshots": 1,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "start_time": "20:49:17",
+      "end_time": "20:50:35",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 6,
+          "deaths": 3,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 4,
+          "deaths": 5,
+          "headshots": 2,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 1,
+            "inferno": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 1,
+          "deaths": 5,
+          "headshots": 0,
+          "weapons": {
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 2,
+          "deaths": 5,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 2,
+          "deaths": 5,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 6,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 2,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 5,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 5,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 5,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 3,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 6,
+      "start_time": "20:51:38",
+      "end_time": "20:53:02",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 7,
+          "deaths": 4,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 5,
+          "deaths": 6,
+          "headshots": 3,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 1,
+            "inferno": 1,
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 2,
+          "deaths": 6,
+          "headshots": 0,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 2,
+          "deaths": 6,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 3,
+          "deaths": 6,
+          "headshots": 1,
+          "weapons": {
+            "glock": 1,
+            "ak47": 1,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 6,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 2,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 6,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 7,
+          "deaths": 1,
+          "headshots": 0,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 6
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 6,
+          "deaths": 3,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 6
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 4,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 7,
+      "start_time": "20:53:27",
+      "end_time": "20:54:53",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 8,
+          "deaths": 5,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 5,
+          "deaths": 6,
+          "headshots": 3,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 1,
+            "inferno": 1,
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 4,
+          "deaths": 6,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 3,
+          "deaths": 7,
+          "headshots": 3,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1,
+            "ak47": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 4,
+          "deaths": 6,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "ak47": 2,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 6,
+          "deaths": 4,
+          "headshots": 2,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 2,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 7,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 8,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 7
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 6,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 6
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 4,
+          "deaths": 3,
+          "headshots": 2,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 8,
+      "start_time": "20:55:51",
+      "end_time": "20:57:43",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 8,
+          "deaths": 6,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 7,
+          "deaths": 7,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 3,
+            "inferno": 1,
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 4,
+          "deaths": 7,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 4,
+          "deaths": 8,
+          "headshots": 4,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 4,
+          "deaths": 7,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "ak47": 2,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 9,
+          "deaths": 5,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 5,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 8,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 9,
+          "deaths": 2,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 7,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "m4a1_silencer": 7
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 4,
+          "deaths": 4,
+          "headshots": 2,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 9,
+      "start_time": "20:58:08",
+      "end_time": "21:00:13",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 9,
+          "deaths": 7,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 8,
+          "deaths": 8,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 3,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 4,
+          "deaths": 8,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 5,
+          "deaths": 9,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 5,
+          "deaths": 8,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "ak47": 3,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 11,
+          "deaths": 6,
+          "headshots": 5,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 7,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 9,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 9,
+          "deaths": 3,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 9,
+          "deaths": 4,
+          "headshots": 2,
+          "weapons": {
+            "m4a1_silencer": 9
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 4,
+          "deaths": 4,
+          "headshots": 2,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 10,
+      "start_time": "21:01:12",
+      "end_time": "21:02:14",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 10,
+          "deaths": 8,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 8,
+          "deaths": 9,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 3,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 4,
+          "deaths": 9,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 6,
+          "deaths": 10,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 5,
+          "deaths": 9,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "ak47": 3,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 11,
+          "deaths": 6,
+          "headshots": 5,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 7,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 10,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 9,
+          "deaths": 3,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 12,
+          "deaths": 4,
+          "headshots": 3,
+          "weapons": {
+            "m4a1_silencer": 12
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 5,
+          "deaths": 4,
+          "headshots": 3,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 11,
+      "start_time": "21:02:39",
+      "end_time": "21:05:10",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 10,
+          "deaths": 8,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 9,
+          "deaths": 9,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 4,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 5,
+          "deaths": 9,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 6,
+          "deaths": 10,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 1,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 6,
+          "deaths": 9,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 4,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 12,
+          "deaths": 7,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 2,
+          "deaths": 11,
+          "headshots": 2,
+          "weapons": {
+            "glock": 1,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 9,
+          "deaths": 4,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 12,
+          "deaths": 4,
+          "headshots": 3,
+          "weapons": {
+            "m4a1_silencer": 12
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 5,
+          "deaths": 5,
+          "headshots": 3,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 12,
+      "start_time": "21:06:10",
+      "end_time": "21:07:42",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 10,
+          "deaths": 9,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 9,
+          "deaths": 10,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 4,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 5,
+          "deaths": 10,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 2,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 8,
+          "deaths": 11,
+          "headshots": 7,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 3,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 6,
+          "deaths": 10,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 4,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 13,
+          "deaths": 8,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 9,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 5,
+          "deaths": 11,
+          "headshots": 4,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 9,
+          "deaths": 5,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 13,
+          "deaths": 5,
+          "headshots": 4,
+          "weapons": {
+            "m4a1_silencer": 13
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 7,
+          "deaths": 6,
+          "headshots": 4,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 13,
+      "start_time": "21:08:08",
+      "end_time": "21:09:15",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 11,
+          "deaths": 10,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 9,
+          "deaths": 11,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 4,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 6,
+          "deaths": 11,
+          "headshots": 2,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 3,
+            "galilar": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 8,
+          "deaths": 12,
+          "headshots": 7,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 3,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 11,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 13,
+          "deaths": 9,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 9,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 6,
+          "deaths": 12,
+          "headshots": 4,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 10,
+          "deaths": 5,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 14,
+          "deaths": 5,
+          "headshots": 5,
+          "weapons": {
+            "m4a1_silencer": 14
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 7,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 14,
+      "start_time": "21:09:40",
+      "end_time": "21:10:54",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 14,
+          "deaths": 10,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 9,
+          "deaths": 12,
+          "headshots": 4,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 4,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 7,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 1,
+            "ak47": 3,
+            "galilar": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 8,
+          "deaths": 13,
+          "headshots": 7,
+          "weapons": {
+            "tec9": 1,
+            "galilar": 3,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 15,
+          "deaths": 10,
+          "headshots": 7,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 11,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 6,
+          "deaths": 13,
+          "headshots": 4,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 10,
+          "deaths": 5,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 14,
+          "deaths": 5,
+          "headshots": 5,
+          "weapons": {
+            "m4a1_silencer": 14
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 7,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 15,
+      "start_time": "21:11:19",
+      "end_time": "21:12:27",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 14,
+          "deaths": 11,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 11,
+          "deaths": 12,
+          "headshots": 5,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 8,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 9,
+          "deaths": 14,
+          "headshots": 8,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 16,
+          "deaths": 11,
+          "headshots": 8,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 7,
+          "deaths": 13,
+          "headshots": 5,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 10,
+          "deaths": 6,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 14,
+          "deaths": 6,
+          "headshots": 5,
+          "weapons": {
+            "m4a1_silencer": 14
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 8,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 16,
+      "start_time": "21:15:59",
+      "end_time": "21:16:44",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 14,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 12,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1,
+            "usp_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 9,
+          "deaths": 12,
+          "headshots": 4,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 10,
+          "deaths": 14,
+          "headshots": 8,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 16,
+          "deaths": 12,
+          "headshots": 8,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 13,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 10,
+          "deaths": 7,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 14,
+          "deaths": 7,
+          "headshots": 5,
+          "weapons": {
+            "m4a1_silencer": 14
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 9,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 17,
+      "start_time": "21:17:09",
+      "end_time": "21:18:44",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 14,
+          "deaths": 13,
+          "headshots": 6,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 14,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1,
+            "usp_silencer": 1,
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 9,
+          "deaths": 12,
+          "headshots": 4,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 13,
+          "deaths": 14,
+          "headshots": 11,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 12,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 16,
+          "deaths": 13,
+          "headshots": 8,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 13,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 10,
+          "deaths": 8,
+          "headshots": 1,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 14,
+          "deaths": 8,
+          "headshots": 5,
+          "weapons": {
+            "m4a1_silencer": 14
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 10,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 18,
+      "start_time": "21:19:09",
+      "end_time": "21:21:11",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 15,
+          "deaths": 14,
+          "headshots": 7,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 17,
+          "deaths": 13,
+          "headshots": 7,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 1,
+            "usp_silencer": 1,
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 10,
+          "deaths": 13,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1,
+            "famas": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 13,
+          "deaths": 15,
+          "headshots": 11,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 13,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 16,
+          "deaths": 14,
+          "headshots": 8,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 14,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 12,
+          "deaths": 8,
+          "headshots": 3,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 16,
+          "deaths": 9,
+          "headshots": 6,
+          "weapons": {
+            "m4a1_silencer": 14,
+            "ak47": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 11,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 19,
+      "start_time": "21:21:36",
+      "end_time": "21:23:05",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 15,
+          "deaths": 14,
+          "headshots": 7,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 18,
+          "deaths": 14,
+          "headshots": 7,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 2,
+            "usp_silencer": 1,
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 10,
+          "deaths": 14,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1,
+            "famas": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 14,
+          "deaths": 16,
+          "headshots": 11,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 3,
+            "m4a1": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 14,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 17,
+          "deaths": 15,
+          "headshots": 8,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 15,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 13,
+          "deaths": 8,
+          "headshots": 3,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 19,
+          "deaths": 9,
+          "headshots": 8,
+          "weapons": {
+            "m4a1_silencer": 14,
+            "ak47": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 20,
+      "start_time": "21:23:30",
+      "end_time": "21:24:28",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 17,
+          "deaths": 14,
+          "headshots": 7,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 5,
+            "p250": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 18,
+          "deaths": 15,
+          "headshots": 7,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 2,
+            "usp_silencer": 1,
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 10,
+          "deaths": 15,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1,
+            "famas": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 14,
+          "deaths": 17,
+          "headshots": 11,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 3,
+            "m4a1": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 7,
+          "deaths": 15,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 20,
+          "deaths": 15,
+          "headshots": 9,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 7
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 16,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 13,
+          "deaths": 8,
+          "headshots": 3,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1,
+            "ak47": 3
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 19,
+          "deaths": 9,
+          "headshots": 8,
+          "weapons": {
+            "m4a1_silencer": 14,
+            "ak47": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 9,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 5,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 21,
+      "start_time": "21:25:28",
+      "end_time": "21:27:22",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 17,
+          "deaths": 14,
+          "headshots": 7,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 5,
+            "p250": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 18,
+          "deaths": 16,
+          "headshots": 7,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 2,
+            "usp_silencer": 1,
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 10,
+          "deaths": 16,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1,
+            "famas": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 14,
+          "deaths": 17,
+          "headshots": 11,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 3,
+            "m4a1": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 8,
+          "deaths": 15,
+          "headshots": 3,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1,
+            "m4a1_silencer": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 20,
+          "deaths": 16,
+          "headshots": 9,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 7
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 17,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 14,
+          "deaths": 8,
+          "headshots": 4,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1,
+            "ak47": 4
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 20,
+          "deaths": 9,
+          "headshots": 9,
+          "weapons": {
+            "m4a1_silencer": 14,
+            "ak47": 6
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 10,
+          "deaths": 12,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 6,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    },
+    {
+      "round_number": 22,
+      "start_time": "21:28:25",
+      "end_time": "21:30:17",
+      "player_stats": {
+        "ZywOo": {
+          "total_kills": 21,
+          "deaths": 14,
+          "headshots": 9,
+          "weapons": {
+            "usp_silencer": 3,
+            "m4a1_silencer": 4,
+            "awp": 3,
+            "taser": 1,
+            "ak47": 9,
+            "p250": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "s1mple": {
+          "total_kills": 18,
+          "deaths": 17,
+          "headshots": 7,
+          "weapons": {
+            "deagle": 2,
+            "ak47": 6,
+            "inferno": 1,
+            "tec9": 1,
+            "awp": 2,
+            "usp_silencer": 1,
+            "m4a1_silencer": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Perfecto": {
+          "total_kills": 10,
+          "deaths": 17,
+          "headshots": 5,
+          "weapons": {
+            "tec9": 1,
+            "deagle": 2,
+            "ak47": 3,
+            "galilar": 2,
+            "elite": 1,
+            "famas": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "b1t": {
+          "total_kills": 17,
+          "deaths": 18,
+          "headshots": 14,
+          "weapons": {
+            "tec9": 2,
+            "galilar": 3,
+            "ak47": 4,
+            "usp_silencer": 1,
+            "famas": 6,
+            "m4a1": 1
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "electronic": {
+          "total_kills": 9,
+          "deaths": 16,
+          "headshots": 4,
+          "weapons": {
+            "glock": 1,
+            "ak47": 5,
+            "mac10": 1,
+            "m4a1_silencer": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "shox ": {
+          "total_kills": 20,
+          "deaths": 17,
+          "headshots": 9,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 12,
+            "ak47": 7
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Boombl4": {
+          "total_kills": 9,
+          "deaths": 18,
+          "headshots": 6,
+          "weapons": {
+            "glock": 2,
+            "galilar": 3,
+            "m4a1_silencer": 1,
+            "tec9": 1,
+            "elite": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "misutaaa": {
+          "total_kills": 15,
+          "deaths": 9,
+          "headshots": 5,
+          "weapons": {
+            "usp_silencer": 1,
+            "m4a1_silencer": 8,
+            "deagle": 1,
+            "ak47": 5
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "apEX": {
+          "total_kills": 20,
+          "deaths": 10,
+          "headshots": 9,
+          "weapons": {
+            "m4a1_silencer": 14,
+            "ak47": 6
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        },
+        "Kyojin": {
+          "total_kills": 10,
+          "deaths": 13,
+          "headshots": 6,
+          "weapons": {
+            "mp9": 1,
+            "m4a1_silencer": 1,
+            "ak47": 6,
+            "deagle": 2
+          },
+          "headshot_percentage": 0,
+          "team_kills": 0
+        }
+      }
+    }
+  ]
+}

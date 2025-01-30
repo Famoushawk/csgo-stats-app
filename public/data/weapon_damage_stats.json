@@ -1,0 +1,7186 @@
+{
+  "weapon_stats": {
+    "ak47": {
+      "total_damage": 11715,
+      "total_hits": 242,
+      "max_damage": 142,
+      "min_damage": 2,
+      "average_damage": 48.41,
+      "hitgroup_distribution": {
+        "chest": 107,
+        "head": 56,
+        "left leg": 14,
+        "stomach": 44,
+        "left arm": 6,
+        "right arm": 12,
+        "right leg": 3
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 26.36,
+        "head": 116.62,
+        "left leg": 21.21,
+        "stomach": 34.0,
+        "left arm": 28.0,
+        "right arm": 27.08,
+        "right leg": 25.67
+      }
+    },
+    "glock": {
+      "total_damage": 768,
+      "total_hits": 27,
+      "max_damage": 95,
+      "min_damage": 8,
+      "average_damage": 28.44,
+      "hitgroup_distribution": {
+        "chest": 14,
+        "head": 7,
+        "left arm": 1,
+        "right arm": 2,
+        "right leg": 2,
+        "stomach": 1
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 11.86,
+        "head": 74.86,
+        "left arm": 19.0,
+        "right arm": 9.5,
+        "right leg": 15.0,
+        "stomach": 10.0
+      }
+    },
+    "m4a1": {
+      "total_damage": 16504,
+      "total_hits": 293,
+      "max_damage": 131,
+      "min_damage": 4,
+      "average_damage": 56.33,
+      "hitgroup_distribution": {
+        "head": 91,
+        "stomach": 45,
+        "chest": 111,
+        "left arm": 11,
+        "left leg": 12,
+        "right arm": 17,
+        "neck": 1,
+        "right leg": 5
+      },
+      "average_damage_by_hitgroup": {
+        "head": 120.25,
+        "stomach": 32.67,
+        "chest": 26.92,
+        "left arm": 22.64,
+        "left leg": 22.08,
+        "right arm": 25.24,
+        "neck": 36.0,
+        "right leg": 24.8
+      }
+    },
+    "sg556": {
+      "total_damage": 352,
+      "total_hits": 4,
+      "max_damage": 115,
+      "min_damage": 12,
+      "average_damage": 88.0,
+      "hitgroup_distribution": {
+        "head": 3,
+        "chest": 1
+      },
+      "average_damage_by_hitgroup": {
+        "head": 113.33,
+        "chest": 12.0
+      }
+    },
+    "hkp2000": {
+      "total_damage": 3173,
+      "total_hits": 56,
+      "max_damage": 133,
+      "min_damage": 6,
+      "average_damage": 56.66,
+      "hitgroup_distribution": {
+        "chest": 26,
+        "head": 24,
+        "right arm": 3,
+        "stomach": 3
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 18.96,
+        "head": 108.17,
+        "right arm": 15.0,
+        "stomach": 13.0
+      }
+    },
+    "deagle": {
+      "total_damage": 6593,
+      "total_hits": 58,
+      "max_damage": 181,
+      "min_damage": 25,
+      "average_damage": 113.67,
+      "hitgroup_distribution": {
+        "head": 39,
+        "chest": 17,
+        "stomach": 1,
+        "left arm": 1
+      },
+      "average_damage_by_hitgroup": {
+        "head": 149.62,
+        "chest": 38.82,
+        "stomach": 57.0,
+        "left arm": 41.0
+      }
+    },
+    "hegrenade": {
+      "total_damage": 258,
+      "total_hits": 20,
+      "max_damage": 40,
+      "min_damage": 1,
+      "average_damage": 12.9,
+      "hitgroup_distribution": {
+        "generic": 20
+      },
+      "average_damage_by_hitgroup": {
+        "generic": 12.9
+      }
+    },
+    "mp9": {
+      "total_damage": 141,
+      "total_hits": 5,
+      "max_damage": 87,
+      "min_damage": 12,
+      "average_damage": 28.2,
+      "hitgroup_distribution": {
+        "head": 1,
+        "chest": 3,
+        "stomach": 1
+      },
+      "average_damage_by_hitgroup": {
+        "head": 87.0,
+        "chest": 12.33,
+        "stomach": 17.0
+      }
+    },
+    "tec9": {
+      "total_damage": 608,
+      "total_hits": 13,
+      "max_damage": 109,
+      "min_damage": 22,
+      "average_damage": 46.77,
+      "hitgroup_distribution": {
+        "chest": 6,
+        "stomach": 2,
+        "head": 4,
+        "right arm": 1
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 23.5,
+        "stomach": 28.5,
+        "head": 96.5,
+        "right arm": 24.0
+      }
+    },
+    "p250": {
+      "total_damage": 140,
+      "total_hits": 5,
+      "max_damage": 34,
+      "min_damage": 21,
+      "average_damage": 28.0,
+      "hitgroup_distribution": {
+        "chest": 5
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 28.0
+      }
+    },
+    "galilar": {
+      "total_damage": 1142,
+      "total_hits": 30,
+      "max_damage": 117,
+      "min_damage": 4,
+      "average_damage": 38.07,
+      "hitgroup_distribution": {
+        "head": 7,
+        "stomach": 11,
+        "right arm": 1,
+        "chest": 8,
+        "left arm": 1,
+        "right leg": 2
+      },
+      "average_damage_by_hitgroup": {
+        "head": 97.86,
+        "stomach": 18.55,
+        "right arm": 22.0,
+        "chest": 20.88,
+        "left arm": 22.0,
+        "right leg": 21.0
+      }
+    },
+    "inferno": {
+      "total_damage": 383,
+      "total_hits": 57,
+      "max_damage": 8,
+      "min_damage": 1,
+      "average_damage": 6.72,
+      "hitgroup_distribution": {
+        "generic": 57
+      },
+      "average_damage_by_hitgroup": {
+        "generic": 6.72
+      }
+    },
+    "mac10": {
+      "total_damage": 195,
+      "total_hits": 11,
+      "max_damage": 61,
+      "min_damage": 11,
+      "average_damage": 17.73,
+      "hitgroup_distribution": {
+        "right arm": 3,
+        "chest": 3,
+        "stomach": 3,
+        "left leg": 1,
+        "head": 1
+      },
+      "average_damage_by_hitgroup": {
+        "right arm": 12.33,
+        "chest": 13.67,
+        "stomach": 14.0,
+        "left leg": 14.0,
+        "head": 61.0
+      }
+    },
+    "awp": {
+      "total_damage": 605,
+      "total_hits": 5,
+      "max_damage": 139,
+      "min_damage": 108,
+      "average_damage": 121.0,
+      "hitgroup_distribution": {
+        "stomach": 2,
+        "chest": 2,
+        "right arm": 1
+      },
+      "average_damage_by_hitgroup": {
+        "stomach": 138.5,
+        "chest": 109.0,
+        "right arm": 110.0
+      }
+    },
+    "taser": {
+      "total_damage": 169,
+      "total_hits": 1,
+      "max_damage": 169,
+      "min_damage": 169,
+      "average_damage": 169.0,
+      "hitgroup_distribution": {
+        "generic": 1
+      },
+      "average_damage_by_hitgroup": {
+        "generic": 169.0
+      }
+    },
+    "elite": {
+      "total_damage": 370,
+      "total_hits": 7,
+      "max_damage": 127,
+      "min_damage": 11,
+      "average_damage": 52.86,
+      "hitgroup_distribution": {
+        "left arm": 2,
+        "head": 2,
+        "stomach": 1,
+        "right leg": 1,
+        "chest": 1
+      },
+      "average_damage_by_hitgroup": {
+        "left arm": 14.5,
+        "head": 124.0,
+        "stomach": 39.0,
+        "right leg": 23.0,
+        "chest": 31.0
+      }
+    },
+    "famas": {
+      "total_damage": 943,
+      "total_hits": 21,
+      "max_damage": 116,
+      "min_damage": 6,
+      "average_damage": 44.9,
+      "hitgroup_distribution": {
+        "chest": 7,
+        "head": 7,
+        "left leg": 1,
+        "stomach": 2,
+        "right arm": 4
+      },
+      "average_damage_by_hitgroup": {
+        "chest": 21.71,
+        "head": 94.29,
+        "left leg": 21.0,
+        "stomach": 30.0,
+        "right arm": 12.5
+      }
+    },
+    "mp7": {
+      "total_damage": 63,
+      "total_hits": 1,
+      "max_damage": 63,
+      "min_damage": 63,
+      "average_damage": 63.0,
+      "hitgroup_distribution": {
+        "head": 1
+      },
+      "average_damage_by_hitgroup": {
+        "head": 63.0
+      }
+    }
+  },
+  "damage_events": [
+    {
+      "timestamp": "20:33:37",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:37",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:41",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 20,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 15,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 15,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 42,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 20,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:33:42",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:43",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:43",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:43",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 20,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:47",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:47",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:48",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:48",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:48",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:49",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:33:50",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:59",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:33:59",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:34:01",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:01",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:01",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 20,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:02",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:34:03",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 29,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:03",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:34:04",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:34:04",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:34:04",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:09",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 18,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:10",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 75,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:10",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 19,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:36:12",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 72,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:14",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 18,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:15",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 18,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:18",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 90,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:18",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 106,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:19",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:20",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:20",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 82,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:24",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 137,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:24",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 136,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:24",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:36:45",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:46",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:36:46",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:36:46",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:48",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:48",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 128,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:49",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:36:49",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:36:49",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:36:49",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:52",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:53",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:53",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:54",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:54",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:58",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:58",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:58",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:36:58",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:36:59",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:36:59",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:00",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:00",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:01",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:01",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:05",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:05",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:05",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:05",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:06",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:09",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:11",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 31,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:11",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:37:11",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 31,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:13",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:14",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 127,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:26",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:29",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:37:29",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "neck"
+    },
+    {
+      "timestamp": "20:37:29",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 127,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:33",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:33",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "sg556",
+      "damage": 111,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:37",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:37",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:37",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:37",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:39",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:37:39",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "sg556",
+      "damage": 114,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:50",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:37:53",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "sg556",
+      "damage": 12,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:53",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "sg556",
+      "damage": 115,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:55",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:55",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:56",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:37:56",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 59,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:57",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 102,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:37:58",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:58",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:37:58",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:38:02",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:03",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:04",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:04",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 103,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:09",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 119,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:10",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:10",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 117,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:11",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:14",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:15",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:16",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:19",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 143,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:19",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:19",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:20",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:23",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 139,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:24",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:24",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 69,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:24",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 122,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:24",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 161,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:27",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 176,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:28",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 170,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:28",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 124,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:28",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:29",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 165,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:30",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 142,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:31",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 146,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:31",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 64,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:32",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 138,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:34",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 153,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:35",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 38,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:36",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 38,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:37",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 149,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:39",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 167,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:40",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 44,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:40",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:41",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:41",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:42",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:43",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 46,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:44",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 180,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:45",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 166,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:47",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 132,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:47",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 32,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:48",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 159,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:48",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:49",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "hkp2000",
+      "damage": 133,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:51",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 161,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:52",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 163,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:52",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 31,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:38:52",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 168,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:52",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 87,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:55",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:55",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:56",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:38:56",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:00",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 148,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:00",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:01",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:01",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:04",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:04",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:04",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:05",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:07",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:08",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:08",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:09",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:12",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:13",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:14",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:14",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:15",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:18",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:19",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 169,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:19",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:20",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:22",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:23",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:23",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 172,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:24",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:26",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 161,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:26",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:27",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 164,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:27",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 41,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:27",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:28",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 38,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:28",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:28",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 169,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:29",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 172,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:30",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 181,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:32",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:33",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:34",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "deagle",
+      "damage": 180,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:35",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:36",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:36",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:37",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:39",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:40",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:40",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:41",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:43",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:44",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:45",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 129,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:46",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:50",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "hkp2000",
+      "damage": 121,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:50",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 123,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:51",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 120,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:52",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 123,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:55",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 126,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:55",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 31,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:56",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 31,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:56",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 47,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:39:56",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:39:56",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:04",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 127,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:07",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 127,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:16",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:16",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 31,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:40:16",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 101,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:19",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 161,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:20",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 31,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:40:20",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:40:21",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:21",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:22",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 110,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:24",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:40:24",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 89,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:25",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 128,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:26",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:26",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:27",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 43,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:40:27",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:27",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:27",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:28",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:28",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:28",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:32",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 107,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:45",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "glock",
+      "damage": 9,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:40:46",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:40:46",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 135,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:54",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 141,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:40:55",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 15,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:40:59",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:59",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:40:59",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 104,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:00",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 30,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:02",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "deagle",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:06",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 35,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:06",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:06",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:07",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "hkp2000",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:07",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "hkp2000",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:07",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 140,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:47",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:48",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:48",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:49",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "hkp2000",
+      "damage": 115,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:49",
+      "attacker": "Perfecto",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 10,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:49",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "hkp2000",
+      "damage": 115,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:41:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 13,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:41:50",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 8,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:41:51",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:41:51",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 13,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:41:51",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 10,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:41:57",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:42:05",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "hkp2000",
+      "damage": 124,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:15",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 30,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:42:16",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 95,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:17",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "hkp2000",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:21",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "glock",
+      "damage": 95,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:31",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "glock",
+      "damage": 92,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:41",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 9,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:42:45",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 17,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:42:57",
+      "attacker": "Boombl4",
+      "victim": "apEX",
+      "weapon": "glock",
+      "damage": 10,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:42:57",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:42:59",
+      "attacker": "misutaaa",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 13,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:43:11",
+      "attacker": "misutaaa",
+      "victim": "Boombl4",
+      "weapon": "hkp2000",
+      "damage": 17,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:44:19",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:19",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:20",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:44:20",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:44:21",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:21",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "deagle",
+      "damage": 130,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:44:22",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:22",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:22",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:22",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:23",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 4,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:44:45",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "deagle",
+      "damage": 176,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:44:46",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "hegrenade",
+      "damage": 21,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:44:46",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "hegrenade",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:45:02",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 21,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:45:02",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 21,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:45:04",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:45:05",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "deagle",
+      "damage": 47,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:45:05",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 131,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:45:07",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "mp9",
+      "damage": 87,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:47:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:16",
+      "attacker": "Perfecto",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:17",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 89,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:47:17",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 11,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:47:17",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:47:17",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:47:18",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:47:35",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:35",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:36",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:47:36",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:43",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:44",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:47:44",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:47:48",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:48",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:47:48",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:47:48",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:57",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:57",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:57",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:57",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:47:58",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:47:58",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:41",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:41",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:41",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:41",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:48:42",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "tec9",
+      "damage": 24,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:46",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "tec9",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:46",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "tec9",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:47",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:48:47",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:47",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:47",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:48",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "p250",
+      "damage": 21,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:48",
+      "attacker": "electronic",
+      "victim": "Kyojin",
+      "weapon": "tec9",
+      "damage": 23,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:48",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:48:48",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "p250",
+      "damage": 21,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:48:49",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:50",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "tec9",
+      "damage": 89,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:48:50",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:50",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 140,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:48:51",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:51",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "tec9",
+      "damage": 24,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:48:51",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:51",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "tec9",
+      "damage": 30,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:48:52",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:49:34",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "hegrenade",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:49:34",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hegrenade",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:00",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:00",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 90,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:50:01",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 90,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:50:02",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:50:02",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:02",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:03",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:14",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:15",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:24",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:24",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:24",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:25",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 11,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 4,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "galilar",
+      "damage": 4,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 10,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "galilar",
+      "damage": 4,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 5,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 13,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:26",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:50:29",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 10,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:29",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:33",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 44,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:50:34",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:50:34",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:34",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "galilar",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "galilar",
+      "damage": 28,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:50:35",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:51:53",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 58,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:51:54",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 11,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:51:54",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:51:54",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 14,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:51:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 14,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:51:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 11,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:51:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 14,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:51:55",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "mac10",
+      "damage": 14,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:52:05",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:06",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:52:21",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "mac10",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:21",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:21",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "mac10",
+      "damage": 61,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:52:21",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:21",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "mac10",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:22",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "mac10",
+      "damage": 15,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:52:40",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:40",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:41",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 111,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:52:41",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "deagle",
+      "damage": 45,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:42",
+      "attacker": "Kyojin",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 10,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:42",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "deagle",
+      "damage": 46,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:42",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "deagle",
+      "damage": 57,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:52:52",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 8,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:52",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:52",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:52:53",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:52:53",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:52:54",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:52:59",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "tec9",
+      "damage": 79,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "tec9",
+      "damage": 24,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "tec9",
+      "damage": 24,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "tec9",
+      "damage": 24,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 47,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:53:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 47,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:53:38",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "hegrenade",
+      "damage": 28,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:53:38",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "awp",
+      "damage": 138,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:53:42",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:47",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 108,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:53:53",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:53",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 139,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 12,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 12,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:53:57",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 110,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:54:13",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 106,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:56:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:56:50",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:56:53",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:53",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:53",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:53",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:56:53",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:57:05",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "hegrenade",
+      "damage": 29,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:57:05",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "hegrenade",
+      "damage": 18,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:57:17",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:17",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:57:17",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:17",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 110,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:57:19",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:19",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:19",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:57:19",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:57:20",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:57:20",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 5,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:20",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:20",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:20",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:57:21",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "20:57:22",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:57:25",
+      "attacker": "s1mple",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:57:31",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:58:19",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hegrenade",
+      "damage": 12,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:58:20",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:58:20",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:58:21",
+      "attacker": "electronic",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:58:32",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "hegrenade",
+      "damage": 5,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:28",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 40,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:59:31",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:31",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:59:35",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:59:35",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:59:35",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 8,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:59:42",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "awp",
+      "damage": 110,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:42",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "20:59:51",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "awp",
+      "damage": 139,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:59:53",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "20:59:53",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "20:59:59",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 105,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:00:01",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 13,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:00:01",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:23",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hegrenade",
+      "damage": 21,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:01:25",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:25",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:01:25",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:01:27",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:28",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:01:28",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 12,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:01:28",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:01:28",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "mp9",
+      "damage": 12,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:29",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:29",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:30",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:01:30",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:01:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:01:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:31",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:01:33",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "awp",
+      "damage": 108,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:01:37",
+      "attacker": "apEX",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 6,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:02:12",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:02:12",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:02:12",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:02:12",
+      "attacker": "b1t",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:02:14",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 106,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:02:49",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hegrenade",
+      "damage": 25,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:03:02",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:03:02",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:03:25",
+      "attacker": "misutaaa",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:03:25",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:03:36",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:03:36",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 92,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:03:43",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 5,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:03:51",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:03:52",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:03:52",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:03:52",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:03:52",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:04:20",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:04:20",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:04:20",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:04:21",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:06:27",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:02",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:02",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:10",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 90,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:24",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:24",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "galilar",
+      "damage": 117,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:26",
+      "attacker": "electronic",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:27",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:27",
+      "attacker": "electronic",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:27",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:27",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:27",
+      "attacker": "Kyojin",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:29",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "galilar",
+      "damage": 117,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:29",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:34",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:34",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:34",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "galilar",
+      "damage": 28,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:39",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 10,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 8,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 9,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 14,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 13,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:07:40",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:07:42",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "glock",
+      "damage": 48,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:08:19",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:08:19",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:09:06",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "taser",
+      "damage": 169,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:09:06",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:06",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:06",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:07",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "deagle",
+      "damage": 149,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:09:07",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 44,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:07",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:07",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "deagle",
+      "damage": 143,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:09:10",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 35,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:10",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 43,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:09:11",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 43,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:09:12",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:12",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 36,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:14",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "deagle",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:14",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:14",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 43,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:09:15",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:15",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:09:15",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:09:51",
+      "attacker": "Perfecto",
+      "victim": "ZywOo",
+      "weapon": "hegrenade",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:09:51",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "hegrenade",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:09:53",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:09:54",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:03",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 106,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:10:12",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:10:13",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:10:13",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:10:13",
+      "attacker": "shox ",
+      "victim": "Boombl4",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:10:25",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "hegrenade",
+      "damage": 40,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:28",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:10:28",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 10,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:10:33",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "deagle",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:10:33",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:10:34",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:10:34",
+      "attacker": "shox ",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:10:34",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "galilar",
+      "damage": 89,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:10:50",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:50",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 3,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:51",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 4,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:51",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 4,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:51",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 5,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:51",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 6,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:52",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:52",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:52",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:52",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:52",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:53",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:10:54",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:10:54",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 68,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:11:46",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:46",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:46",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:11:46",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "ak47",
+      "damage": 106,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:11:52",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "deagle",
+      "damage": 98,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:11:52",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "ak47",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:55",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "tec9",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:11:57",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:11:57",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:57",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:57",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:11:57",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:11:59",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:11:59",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:11:59",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:12:00",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:12:00",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:12:00",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:12:00",
+      "attacker": "Perfecto",
+      "victim": "shox ",
+      "weapon": "deagle",
+      "damage": 41,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:12:16",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:12:16",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:12:27",
+      "attacker": "Boombl4",
+      "victim": "misutaaa",
+      "weapon": "tec9",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:16:19",
+      "attacker": "Boombl4",
+      "victim": "misutaaa",
+      "weapon": "elite",
+      "damage": 18,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:16:19",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "elite",
+      "damage": 11,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:16:19",
+      "attacker": "Boombl4",
+      "victim": "misutaaa",
+      "weapon": "elite",
+      "damage": 127,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:16:20",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "elite",
+      "damage": 39,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:16:20",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "elite",
+      "damage": 23,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:16:20",
+      "attacker": "Boombl4",
+      "victim": "Kyojin",
+      "weapon": "elite",
+      "damage": 31,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:24",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:31",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "hkp2000",
+      "damage": 104,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:16:31",
+      "attacker": "Perfecto",
+      "victim": "apEX",
+      "weapon": "elite",
+      "damage": 121,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:16:42",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:42",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:42",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:16:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "p250",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:44",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:44",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:44",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:16:44",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 16,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:18:41",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "famas",
+      "damage": 28,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "famas",
+      "damage": 114,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:18:42",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 28,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 21,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 37,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 36,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 46,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:18:43",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "glock",
+      "damage": 10,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:44",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 116,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:18:44",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "glock",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:18:44",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "famas",
+      "damage": 114,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:19:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:19:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:19:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:19:38",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:19:38",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:14",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:19",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:19",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "famas",
+      "damage": 6,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 11,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "b1t",
+      "victim": "apEX",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 47,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:20",
+      "attacker": "apEX",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:39",
+      "attacker": "Perfecto",
+      "victim": "apEX",
+      "weapon": "famas",
+      "damage": 77,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:41",
+      "attacker": "misutaaa",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:20:41",
+      "attacker": "Boombl4",
+      "victim": "misutaaa",
+      "weapon": "mp7",
+      "damage": 63,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:41",
+      "attacker": "misutaaa",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:50",
+      "attacker": "Perfecto",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 6,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:20:52",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:52",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 109,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "ZywOo",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "Kyojin",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 2,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:55",
+      "attacker": "s1mple",
+      "victim": "ZywOo",
+      "weapon": "m4a1",
+      "damage": 91,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:20:56",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:20:56",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 14,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:20:57",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 28,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:20:57",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 32,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:21:11",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 107,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:22:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:22:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:22:42",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:22:46",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "galilar",
+      "damage": 21,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:22:47",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "galilar",
+      "damage": 21,
+      "hitgroup": "right leg"
+    },
+    {
+      "timestamp": "21:22:48",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 111,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:22:50",
+      "attacker": "Perfecto",
+      "victim": "apEX",
+      "weapon": "mp9",
+      "damage": 12,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:22:50",
+      "attacker": "apEX",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 108,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:22:51",
+      "attacker": "s1mple",
+      "victim": "shox ",
+      "weapon": "awp",
+      "damage": 110,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:22:56",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 17,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:22:56",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:22:56",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:22:56",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 27,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "Kyojin",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 22,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:05",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:48",
+      "attacker": "apEX",
+      "victim": "electronic",
+      "weapon": "hegrenade",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:23:48",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "hegrenade",
+      "damage": 1,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:23:48",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 42,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:23:48",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:49",
+      "attacker": "shox ",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 42,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:23:58",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "hkp2000",
+      "damage": 53,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:23:58",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:23:58",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 11,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:23:59",
+      "attacker": "misutaaa",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 33,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:24:02",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 142,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:24:04",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "hkp2000",
+      "damage": 62,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:24:04",
+      "attacker": "shox ",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 35,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:24:09",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:10",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "hkp2000",
+      "damage": 14,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:10",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:10",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 43,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:24:23",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 18,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:26",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:27",
+      "attacker": "Perfecto",
+      "victim": "ZywOo",
+      "weapon": "hkp2000",
+      "damage": 15,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:28",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "p250",
+      "damage": 32,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:24:28",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "p250",
+      "damage": 32,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:25:38",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "hegrenade",
+      "damage": 25,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:25:38",
+      "attacker": "electronic",
+      "victim": "misutaaa",
+      "weapon": "hegrenade",
+      "damage": 1,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:08",
+      "attacker": "Boombl4",
+      "victim": "shox ",
+      "weapon": "hegrenade",
+      "damage": 1,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:11",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:26:11",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:11",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:11",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:11",
+      "attacker": "shox ",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:12",
+      "attacker": "electronic",
+      "victim": "shox ",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:26:24",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:24",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:24",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:24",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 1,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:24",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 1,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 2,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 3,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "inferno",
+      "damage": 4,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "apEX",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:25",
+      "attacker": "Kyojin",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:26:26",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 7,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:26",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:26",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:26",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:27",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "Perfecto",
+      "victim": "misutaaa",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "misutaaa",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 138,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 10,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "s1mple",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 5,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:26:28",
+      "attacker": "apEX",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 139,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:26:31",
+      "attacker": "Kyojin",
+      "victim": "ZywOo",
+      "weapon": "inferno",
+      "damage": 3,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:34",
+      "attacker": "Kyojin",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:34",
+      "attacker": "Kyojin",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:34",
+      "attacker": "Kyojin",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:34",
+      "attacker": "Kyojin",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:26:35",
+      "attacker": "Kyojin",
+      "victim": "Kyojin",
+      "weapon": "inferno",
+      "damage": 8,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:27:25",
+      "attacker": "ZywOo",
+      "victim": "ZywOo",
+      "weapon": "hegrenade",
+      "damage": 4,
+      "hitgroup": "generic"
+    },
+    {
+      "timestamp": "21:28:37",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 9,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:28:37",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 11,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:29:12",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 25,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:29:13",
+      "attacker": "electronic",
+      "victim": "apEX",
+      "weapon": "m4a1",
+      "damage": 90,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:00",
+      "attacker": "s1mple",
+      "victim": "Kyojin",
+      "weapon": "m4a1",
+      "damage": 26,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:00",
+      "attacker": "b1t",
+      "victim": "Kyojin",
+      "weapon": "famas",
+      "damage": 82,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:01",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:01",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "famas",
+      "damage": 24,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "famas",
+      "damage": 19,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "b1t",
+      "victim": "shox ",
+      "weapon": "famas",
+      "damage": 79,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "s1mple",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 10,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "s1mple",
+      "victim": "b1t",
+      "weapon": "m4a1",
+      "damage": 9,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:02",
+      "attacker": "s1mple",
+      "victim": "misutaaa",
+      "weapon": "m4a1",
+      "damage": 92,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:03",
+      "attacker": "misutaaa",
+      "victim": "s1mple",
+      "weapon": "ak47",
+      "damage": 110,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:03",
+      "attacker": "b1t",
+      "victim": "misutaaa",
+      "weapon": "famas",
+      "damage": 78,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:04",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:04",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:04",
+      "attacker": "ZywOo",
+      "victim": "b1t",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:14",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 26,
+      "hitgroup": "left leg"
+    },
+    {
+      "timestamp": "21:30:14",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "mp9",
+      "damage": 13,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:14",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 34,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:30:14",
+      "attacker": "Boombl4",
+      "victim": "ZywOo",
+      "weapon": "mp9",
+      "damage": 17,
+      "hitgroup": "stomach"
+    },
+    {
+      "timestamp": "21:30:15",
+      "attacker": "ZywOo",
+      "victim": "Boombl4",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "left arm"
+    },
+    {
+      "timestamp": "21:30:15",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "right arm"
+    },
+    {
+      "timestamp": "21:30:15",
+      "attacker": "Perfecto",
+      "victim": "ZywOo",
+      "weapon": "famas",
+      "damage": 20,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:15",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 27,
+      "hitgroup": "chest"
+    },
+    {
+      "timestamp": "21:30:15",
+      "attacker": "ZywOo",
+      "victim": "Perfecto",
+      "weapon": "ak47",
+      "damage": 142,
+      "hitgroup": "head"
+    },
+    {
+      "timestamp": "21:30:17",
+      "attacker": "ZywOo",
+      "victim": "electronic",
+      "weapon": "ak47",
+      "damage": 141,
+      "hitgroup": "head"
+    }
+  ]
+}

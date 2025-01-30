@@ -1,0 +1,144 @@
+{
+  "map": "de_nuke",
+  "final_score": "6:16",
+  "winner": "TeamVitality",
+  "teams": {
+    "CT": "NAVI GGBET",
+    "T": "TeamVitality"
+  },
+  "total_rounds": 22,
+  "round_history": [
+    {
+      "round_number": 1,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "1:0"
+    },
+    {
+      "round_number": 2,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "2:0"
+    },
+    {
+      "round_number": 3,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "3:0"
+    },
+    {
+      "round_number": 4,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "4:0"
+    },
+    {
+      "round_number": 5,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "5:0"
+    },
+    {
+      "round_number": 6,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:0"
+    },
+    {
+      "round_number": 7,
+      "winner_side": "T",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "6:1"
+    },
+    {
+      "round_number": 8,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "7:1"
+    },
+    {
+      "round_number": 9,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "8:1"
+    },
+    {
+      "round_number": 10,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "9:1"
+    },
+    {
+      "round_number": 11,
+      "winner_side": "T",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "9:2"
+    },
+    {
+      "round_number": 12,
+      "winner_side": "T",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "9:3"
+    },
+    {
+      "round_number": 13,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "10:3"
+    },
+    {
+      "round_number": 14,
+      "winner_side": "CT",
+      "winner_team": "TeamVitality",
+      "score_after_round": "11:3"
+    },
+    {
+      "round_number": 15,
+      "winner_side": "T",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "11:4"
+    },
+    {
+      "round_number": 16,
+      "winner_side": "CT",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "5:11"
+    },
+    {
+      "round_number": 17,
+      "winner_side": "CT",
+      "winner_team": "NAVI GGBET",
+      "score_after_round": "6:11"
+    },
+    {
+      "round_number": 18,
+      "winner_side": "T",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:12"
+    },
+    {
+      "round_number": 19,
+      "winner_side": "T",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:13"
+    },
+    {
+      "round_number": 20,
+      "winner_side": "T",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:14"
+    },
+    {
+      "round_number": 21,
+      "winner_side": "T",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:15"
+    },
+    {
+      "round_number": 22,
+      "winner_side": "T",
+      "winner_team": "TeamVitality",
+      "score_after_round": "6:16"
+    }
+  ]
+}
