@@ -143,9 +143,9 @@ def main():
         print(f"T: {match_summary['teams']['T']}")
         print(f"\nTotal Rounds: {match_summary['total_rounds']}")
 
-        print("\nRound History:")
+        print("\nRoundInformation History:")
         for round_data in match_summary['round_history']:
-            print(f"Round {round_data['round_number']}: "
+            print(f"RoundInformation {round_data['round_number']}: "
                   f"{round_data['winner_team']} wins "
                   f"(Score: {round_data['score_after_round']})")
 

@@ -15,9 +15,9 @@
 </template>
 
 <script setup lang="ts">
-import type { RoundWinner } from '@/data/types';
+import type { RoundInformation } from '@/data/types';
 
 defineProps<{
-  rounds: RoundWinner[];
+  rounds: RoundInformation[];
 }>();
 </script>

@@ -1,4 +1,4 @@
-import type { Round, MatchSummaryData } from '@/data/types';
+import type { RoundInformation, MatchSummaryData } from '@/data/types';
 import type { ChartOptions, ChartData } from 'chart.js';
 
 interface RoundDurationChartData extends ChartData {
@@ -26,7 +26,7 @@ const COLORS = {
 } as const;
 
 export const createRoundDurationChartData = (
-  rounds: Round[],
+  rounds: RoundInformation[],
   matchData: MatchSummaryData | null
 ): RoundDurationChartData | null => {
   if (!rounds || !matchData) return null;
@@ -44,7 +44,7 @@ export const createRoundDurationChartData = (
   return {
     labels: roundsWithWinners.map(round => `Round ${round.roundNumber}`),
     datasets: [{
-      label: 'Round Duration',
+      label: 'RoundInformation Duration',
       data: roundsWithWinners.map(round => round.durationSeconds),
       backgroundColor: roundsWithWinners.map(round =>
         round.winnerSide === 'CT' ? COLORS.CT.background : COLORS.T.background
@@ -59,7 +59,7 @@ export const createRoundDurationChartData = (
 };
 
 export const createRoundDurationChartOptions = (
-  rounds: Round[],
+  rounds: RoundInformation[],
   matchData: MatchSummaryData | null
 ): ChartOptions => ({
   responsive: true,

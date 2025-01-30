@@ -120,17 +120,17 @@ def main():
             json.dump(timing_data, file, indent=2)
 
         # Print summary
-        print("\nRound Timing Analysis:")
+        print("\nRoundInformation Timing Analysis:")
         print(f"Match Start Time: {timing_data['match_start_time']}")
         print(f"Total Match Duration: {timing_data['total_match_duration']} seconds")
         print(f"Total Rounds: {timing_data['total_rounds']}")
-        print(f"Average Round Duration: {timing_data['average_round_duration']} seconds")
-        print(f"Shortest Round: {timing_data['shortest_round']} seconds")
-        print(f"Longest Round: {timing_data['longest_round']} seconds")
+        print(f"Average RoundInformation Duration: {timing_data['average_round_duration']} seconds")
+        print(f"Shortest RoundInformation: {timing_data['shortest_round']} seconds")
+        print(f"Longest RoundInformation: {timing_data['longest_round']} seconds")
 
-        print("\nRound Details:")
+        print("\nRoundInformation Details:")
         for round_data in timing_data['rounds']:
-            print(f"Round {round_data['round_number']}: "
+            print(f"RoundInformation {round_data['round_number']}: "
                   f"{round_data['duration_seconds']} seconds "
                   f"({round_data['start_time']} - {round_data['end_time']})")
 

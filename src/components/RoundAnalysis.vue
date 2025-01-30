@@ -1,9 +1,9 @@
 <template>
   <div v-if="roundData" class="rounded-lg text-center text-white mt-8">
-    <h2 class="text-2xl font-bold mb-4">Round Analysis</h2>
+    <h2 class="text-2xl font-bold mb-4">RoundInformation Analysis</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
       <div>
-        <h3 class="text-lg font-semibold">Average Round Duration</h3>
+        <h3 class="text-lg font-semibold">Average RoundInformation Duration</h3>
         <p class="text-3xl">{{ formatDuration(roundData.averageRoundDuration) }}s</p>
       </div>
       <div>

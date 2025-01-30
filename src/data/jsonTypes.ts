@@ -1,4 +1,4 @@
-import {KillEvent, Teams, WeaponStats} from "@/data/types";
+import {KillEvent, Teams} from "@/data/types";
 
 export interface MatchJsonResponse {
   teams: Teams;
@@ -25,7 +25,6 @@ export interface KillJsonResponse {
       deaths: number;
       headshots: number;
       headshot_percentage: number;
-      weapons: WeaponStats;
       team_kills?: number;
     };
   };

@@ -55,7 +55,7 @@
       <div class="mt-2">
         <div class="flex items-center gap-4">
           <span class="text-base font-bold text-white">
-            Round: {{ currentRound }}/{{ roundNumber?.length || 1 }}
+            RoundInformation: {{ currentRound }}/{{ roundNumber?.length || 1 }}
           </span>
           <input
             type="range"

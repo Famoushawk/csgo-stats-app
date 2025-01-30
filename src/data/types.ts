@@ -1,8 +1,4 @@
 // Player related types
-export interface WeaponStats {
-  [weaponName: string]: number;
-}
-
 export interface PlayerStatsBase {
   kills: number;
   deaths: number;
@@ -12,35 +8,30 @@ export interface PlayerStatsBase {
   name: string;
 }
 
+interface Player {
+  name: string;
+  team: Team;
+}
+
 // Kill related types
 export interface KillEvent {
   round: number;
   timestamp: string;
-  killer: {
-    name: string;
-    team: Team;
-  };
-  victim: {
-    name: string;
-    team: Team;
-  };
+  killer: Player;
+  victim: Player;
   weapon: string;
   headshot: boolean;
 }
 
-// Round related types
+// RoundInformation related types
 export type Team = 'CT' | 'T';
 export type WinCondition = 'elimination' | 'defuse' | 'explosion' | 'time';
 
-export interface Round {
+export interface RoundInformation {
   roundNumber: number;
   startTime: string;
   endTime: string;
   durationSeconds: number;
-}
-
-export interface RoundWinner {
-  roundNumber: number;
   winnerSide: Team;
   winnerTeam: string;
   scoreAfterRound: string;
@@ -59,7 +50,7 @@ export interface MatchSummaryData {
   winner: string;
   teams: Teams;
   totalRounds: number;
-  roundHistory: RoundWinner[];
+  roundHistory: RoundInformation[];
 }
 
 export interface RoundTimings {
@@ -69,7 +60,7 @@ export interface RoundTimings {
   longestRound: number;
   matchStartTime: string;
   totalMatchDuration: number;
-  rounds: Round[];
+  rounds: RoundInformation[];
 }
 
 // Match statistics

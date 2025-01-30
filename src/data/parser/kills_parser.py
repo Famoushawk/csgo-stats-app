@@ -197,7 +197,7 @@ def main():
         print(f"\nEnhanced Kill Analysis Summary:")
         print(f"Total Rounds: {kill_data['total_rounds']}")
         print(f"Total Kills: {kill_data['total_kills']}")
-        print("\nRound-by-Round Statistics Available")
+        print("\nRoundInformation-by-RoundInformation Statistics Available")
 
     except FileNotFoundError:
         print(f"Error: Could not find input file at {input_path}")
