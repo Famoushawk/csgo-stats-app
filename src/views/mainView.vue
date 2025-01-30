@@ -12,7 +12,7 @@ import { ref, onMounted } from 'vue';
 import MatchSummary from '@/components/MatchSummary.vue';
 import ScoreBoard from '@/components/ScoreBoard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
-import type { MatchSummaryData, MatchStats, RoundTimings, PlayerMatchStats, PlayerRoundStats } from '@/data/types';
+import type { MatchSummaryData, MatchStats, RoundTimings } from '@/data/types';
 import type { MatchJsonResponse, KillJsonResponse, RoundJsonResponse } from "@/data/jsonTypes";
 
 const matchData = ref<MatchSummaryData>({
@@ -32,7 +32,6 @@ const killData = ref<MatchStats>({
   matchStartTime: null,
   totalKills: 0,
   totalRounds: 0,
-  playerStats: {},
   kills: [],
   roundStats: []
 });
@@ -78,24 +77,9 @@ onMounted(async () => {
       matchStartTime: killJson.match_start_time,
       totalKills: killJson.total_kills,
       totalRounds: killJson.total_rounds,
-      playerStats: Object.entries(killJson.player_stats).reduce((acc, [key, value]) => ({
-        ...acc,
-        [key]: {
-          kills: value.total_kills,
-          deaths: value.deaths,
-          headshots: value.headshots,
-          headshotPercentage: value.headshot_percentage,
-          weapons: value.weapons,
-          teamKills: value.team_kills ?? 0
-        }
-      }), {} as { [key: string]: PlayerMatchStats }),
       kills: killJson.kills,
-      roundStats: killJson.round_stats.map((round: {
-        round_number: number;
-        player_stats: { [key: string]: PlayerRoundStats }
-      }) => ({
-        roundNumber: round.round_number,
-        playerStats: round.player_stats || {}
+      roundStats: killJson.round_stats.map(round => ({
+        roundNumber: round.round_number
       }))
     };
 
