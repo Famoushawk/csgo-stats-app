@@ -4,15 +4,15 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
       <div>
         <h3 class="text-lg font-semibold">Average Round Duration</h3>
-        <p class="text-3xl">{{ formatDuration(roundData.average_round_duration) }}s</p>
+        <p class="text-3xl">{{ formatDuration(roundData.averageRoundDuration) }}s</p>
       </div>
       <div>
         <h3 class="text-lg font-semibold">Total Rounds</h3>
-        <p class="text-3xl">{{ roundData.total_rounds }}</p>
+        <p class="text-3xl">{{ roundData.totalRounds }}</p>
       </div>
       <div>
         <h3 class="text-lg font-semibold">Match Duration</h3>
-        <p class="text-3xl">{{ formatTime(roundData.total_match_duration) }}</p>
+        <p class="text-3xl">{{ formatTime(roundData.totalMatchDuration) }}</p>
       </div>
     </div>
 
@@ -29,55 +29,31 @@
     </div>
 
     <div class="h-96">
-      <Bar v-if="roundChartData" :data="roundChartData" :options="chartOptions" />
+      <Bar
+        v-if="roundChartData"
+        :data="roundChartData"
+        :options="chartOptions"
+      />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { computed } from 'vue';
 import { Bar } from 'vue-chartjs';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { formatTime } from '@/utils/timeUtils';
+import { createRoundDurationChartData, createRoundDurationChartOptions } from '@/utils/chartUtils';
+import type { RoundTimings, MatchSummaryData } from '@/data/types';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-interface Round {
-  start_time: string;
-  end_time: string;
-  duration_seconds: number;
-  round_number: number;
-  winner_side?: 'CT' | 'T';
-}
-
-interface RoundData {
-  total_rounds: number;
-  average_round_duration: number;
-  shortest_round: number;
-  longest_round: number;
-  match_start_time: string;
-  total_match_duration: number;
-  rounds: Round[];
-}
-
-interface RoundHistory {
-  round_number: number;
-  winner_side: 'CT' | 'T';
-  winner_team: string;
-  score_after_round: string;
-}
-
-interface MatchData {
-  round_history: RoundHistory[];
-}
-
 const props = withDefaults(defineProps<{
-  roundData?: RoundData;
+  roundData?: RoundTimings;
+  matchData?: MatchSummaryData;
 }>(), {
-  roundData: undefined
+  roundData: undefined,
 });
-
-const matchData = ref<MatchData | null>(null);
 
 const formatDuration = (value: number | undefined): string => {
   if (typeof value === 'number') {
@@ -87,93 +63,14 @@ const formatDuration = (value: number | undefined): string => {
 };
 
 const roundChartData = computed(() => {
-  if (!props.roundData?.rounds || !matchData.value) return null;
-
-  const roundsWithWinners = props.roundData.rounds.map(round => {
-    const matchRound = matchData.value?.round_history.find(
-      r => r.round_number === round.round_number
-    );
-    return {
-      ...round,
-      winner_side: matchRound?.winner_side
-    };
-  });
-
-  return {
-    labels: roundsWithWinners.map(round => `Round ${round.round_number}`),
-    datasets: [{
-      label: 'Round Duration',
-      data: roundsWithWinners.map(round => round.duration_seconds),
-      backgroundColor: roundsWithWinners.map(round =>
-        round.winner_side === 'CT' ? 'rgba(56, 189, 248, 0.5)' : 'rgba(251, 113, 133, 0.5)'
-      ),
-      borderColor: roundsWithWinners.map(round =>
-        round.winner_side === 'CT' ? 'rgb(56, 189, 248)' : 'rgb(251, 113, 133)'
-      ),
-      borderWidth: 1,
-      borderRadius: 4
-    }]
-  };
+  if (!props.roundData?.rounds) return null;
+  // Convert undefined to null for type compatibility
+  return createRoundDurationChartData(props.roundData.rounds, props.matchData ?? null);
 });
 
-const chartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      display: false
-    },
-    tooltip: {
-      callbacks: {
-        label: (context: any) => {
-          const roundIndex = context.dataIndex;
-          const round = props.roundData?.rounds[roundIndex];
-          const winner = matchData.value?.round_history.find(
-            r => r.round_number === round?.round_number
-          );
-          return [
-            `Duration: ${context.raw} seconds`,
-            `Winner: ${winner?.winner_team || 'Unknown'}`
-          ];
-        }
-      }
-    }
-  },
-  scales: {
-    y: {
-      beginAtZero: true,
-      grid: {
-        color: 'rgba(255, 255, 255, 0.1)'
-      },
-      ticks: {
-        color: 'white'
-      },
-      title: {
-        display: true,
-        text: 'Duration (seconds)',
-        color: 'white'
-      }
-    },
-    x: {
-      grid: {
-        color: 'rgba(255, 255, 255, 0.1)'
-      },
-      ticks: {
-        color: 'white',
-        maxRotation: 45,
-        minRotation: 45
-      }
-    }
-  }
-};
-
-onMounted(async () => {
-  try {
-    const response = await fetch('/data/match_summary.json');
-    const data = await response.json();
-    matchData.value = data;
-  } catch (error) {
-    console.error('Error loading match data:', error);
-  }
+const chartOptions = computed(() => {
+  if (!props.roundData?.rounds) return {};
+  // Convert undefined to null for type compatibility
+  return createRoundDurationChartOptions(props.roundData.rounds, props.matchData ?? null);
 });
 </script>

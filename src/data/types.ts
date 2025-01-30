@@ -1,13 +1,63 @@
-export interface PlayerStats {
-  name: string;
+// Player related types
+export interface WeaponStats {
+  [weaponName: string]: number;
+}
+
+export interface PlayerStatsBase {
   kills: number;
   deaths: number;
-  accuracy: number;
+  headshots: number;
   headshotPercentage: number;
 }
 
-export interface PlayerData {
-  players: PlayerStats[];
+export interface PlayerMatchStats extends PlayerStatsBase {
+  weapons: WeaponStats;
+  teamKills: number;
+}
+
+export interface PlayerRoundStats extends PlayerMatchStats {
+  position?: {
+    x: number;
+    y: number;
+    z: number;
+  };
+}
+
+export interface TransformedPlayerStats extends PlayerStatsBase {
+  name: string;
+  weaponBreakdown: string;
+}
+
+// Kill related types
+export interface KillEvent {
+  round: number;
+  timestamp: string;
+  killer: {
+    name: string;
+    team: Team;
+    position: Position;
+  };
+  victim: {
+    name: string;
+    team: Team;
+    position: Position;
+  };
+  weapon: string;
+  headshot: boolean;
+}
+
+// Round related types
+export type Team = 'CT' | 'T';
+export type WinCondition = 'elimination' | 'defuse' | 'explosion' | 'time';
+
+export interface RoundWithWinner extends Round {
+  winnerSide?: Team;
+}
+
+export interface Position {
+  x: number;
+  y: number;
+  z: number;
 }
 
 export interface Round {
@@ -17,7 +67,30 @@ export interface Round {
   durationSeconds: number;
 }
 
-export interface RoundData {
+export interface RoundHistory {
+  roundNumber: number;
+  winnerSide: Team;
+  winnerTeam: string;
+  scoreAfterRound: string;
+  winCondition: WinCondition;
+}
+
+// Match related types
+export interface Teams {
+  CT: string;
+  T: string;
+}
+
+export interface MatchSummaryData {
+  map: string;
+  finalScore: string;
+  winner: string;
+  teams: Teams;
+  totalRounds: number;
+  roundHistory: RoundHistory[];
+}
+
+export interface RoundTimings {
   totalRounds: number;
   averageRoundDuration: number;
   shortestRound: number;
@@ -27,25 +100,20 @@ export interface RoundData {
   rounds: Round[];
 }
 
-export interface RoundHistoryData {
-  round_number: number;
-  winner_side: 'CT' | 'T';
-  winner_team: string;
-  score_after_round: string;
-  win_condition: 'explosion' | 'defuse' | 'elimination';
+// Match statistics
+export interface MatchStats {
+  liveStartTime: string;
+  matchStartTime: string | null;
+  totalKills: number;
+  totalRounds: number;
+  playerStats: {
+    [playerName: string]: PlayerMatchStats;
+  };
+  kills: KillEvent[];
+  roundStats: {
+    roundNumber: number;
+    playerStats: {
+      [playerName: string]: PlayerRoundStats;
+    };
+  }[];
 }
-
-export interface Teams {
-  CT: string;
-  T: string;
-}
-
-export interface MatchSummaryData {
-  teams: Teams;
-  final_score: string;
-  round_history: RoundHistoryData[];
-  map: string;
-  winner: string;
-  total_rounds: number;
-}
-

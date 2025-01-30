@@ -1,90 +1,106 @@
 <template>
   <div class="flex flex-col gap-8 w-full max-w-7xl mx-auto p-8">
-
     <MatchSummary v-if="matchData" :match-data="matchData" />
-
-    <PlayerStats :player-data="playerData" />
-
-    <RoundAnalysis :round-data="roundData" />
+    <PlayerStats :kill-data="killData" />
+    <RoundAnalysis :round-data="roundData" :match-data="matchData"
+    />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref, onMounted } from 'vue';
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
 import MatchSummary from '@/components/MatchSummary.vue';
-import PlayerStats from '@/components/Scoreboard.vue';
+import PlayerStats from '@/components/ScoreBoard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
-import type { MatchSummaryData } from '@/data/types';
+import type { MatchSummaryData, MatchStats, RoundTimings } from '@/data/types';
 
-export default defineComponent({
-  name: 'MainView',
-  components: {
-    MatchSummary,
-    PlayerStats,
-    RoundAnalysis
+const matchData = ref<MatchSummaryData>({
+  teams: {
+    CT: 'NAVI GGBET',
+    T: 'Team Vitality'
   },
-  setup() {
-    const matchData = ref<MatchSummaryData>({
-      teams: {
-        CT: 'NAVI GGBET',
-        T: 'Team Vitality'
-      },
-      final_score: '6:16',
-      map: 'de_nuke',
-      round_history: [],
-      winner: '',
-      total_rounds: 0
-    });
+  finalScore: '6:16',
+  map: 'de_nuke',
+  roundHistory: [],
+  winner: '',
+  totalRounds: 0
+});
 
-    const killData = ref({});
-    const playerData = ref({});
-    const roundData = ref({
-      averageRoundDuration: 0,
-      totalRounds: 0,
-      matchDuration: '0:00',
-      rounds: []
-    });
+const killData = ref<MatchStats | null>(null);
+const roundData = ref<RoundTimings>({
+  totalRounds: 0,
+  averageRoundDuration: 0,
+  shortestRound: 0,
+  longestRound: 0,
+  matchStartTime: '',
+  totalMatchDuration: 0,
+  rounds: []
+});
 
-    onMounted(async () => {
-      try {
-        const [matchResponse, killResponse, playerResponse, roundResponse] = await Promise.all([
-          fetch('/data/match_summary.json'),
-          fetch('/data/kill_stats.json'),
-          fetch('/data/player_accuracy_stats.json'),
-          fetch('/data/round_timings.json')
-        ]);
+onMounted(async () => {
+  try {
+    const [matchResponse, killResponse, roundResponse] = await Promise.all([
+      fetch('/data/match_summary.json'),
+      fetch('/data/kill_stats.json'),
+      fetch('/data/round_timings.json')
+    ]);
 
-        const matchJson = await matchResponse.json();
-        const killJson = await killResponse.json();
-        const playerJson = await playerResponse.json();
-        const roundJson = await roundResponse.json();
+    const matchJson = await matchResponse.json();
+    const killJson = await killResponse.json();
+    const roundJson = await roundResponse.json();
 
-        // Transform data as needed
-        matchData.value = {
-          teams: matchJson.teams,
-          final_score: matchJson.final_score,
-          map: matchJson.map,
-          round_history: matchJson.round_history || [],
-          winner: matchJson.winner || '',
-          total_rounds: matchJson.total_rounds || 0
-        };
-
-        console.log('Match data loaded:', matchData.value); // Debug log
-
-        killData.value = killJson;
-        playerData.value = playerJson;
-        roundData.value = roundJson;
-      } catch (error) {
-        console.error('Error loading data:', error);
-      }
-    });
-
-    return {
-      matchData,
-      killData,
-      playerData,
-      roundData
+    matchData.value = {
+      teams: matchJson.teams,
+      finalScore: matchJson.final_score,
+      map: matchJson.map,
+      roundHistory: matchJson.round_history.map((round: any) => ({
+        roundNumber: round.round_number,
+        winnerSide: round.winner_side,
+        winnerTeam: round.winner_team,
+        scoreAfterRound: round.score_after_round,
+        winCondition: 'elimination' as const
+      })),
+      winner: matchJson.winner,
+      totalRounds: matchJson.total_rounds
     };
+
+    killData.value = {
+      liveStartTime: killJson.live_start_time,
+      matchStartTime: killJson.match_start_time,
+      totalKills: killJson.total_kills,
+      totalRounds: killJson.total_rounds,
+      playerStats: Object.entries(killJson.player_stats).reduce((acc, [key, value]: [string, any]) => ({
+        ...acc,
+        [key]: {
+          kills: value.total_kills,
+          deaths: value.deaths,
+          headshots: value.headshots,
+          headshotPercentage: value.headshot_percentage,
+          weapons: value.weapons,
+          teamKills: value.team_kills || 0
+        }
+      }), {}),
+      kills: killJson.kills,
+      roundStats: killJson.round_stats
+    };
+
+    roundData.value = {
+      totalRounds: roundJson.total_rounds,
+      averageRoundDuration: roundJson.average_round_duration,
+      shortestRound: roundJson.shortest_round,
+      longestRound: roundJson.longest_round,
+      matchStartTime: roundJson.match_start_time,
+      totalMatchDuration: roundJson.total_match_duration,
+      rounds: roundJson.rounds.map((round: any) => ({
+        roundNumber: round.round_number,
+        startTime: round.start_time,
+        endTime: round.end_time,
+        durationSeconds: round.duration_seconds
+      }))
+    };
+
+  } catch (error) {
+    console.error('Error loading data:', error);
   }
 });
 </script>
