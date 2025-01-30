@@ -12,7 +12,7 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
 import MatchSummary from '@/components/MatchSummary.vue';
-import PlayerStats from '@/components/PlayerStats.vue';
+import PlayerStats from '@/components/Scoreboard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
 import type { MatchSummaryData } from '@/data/types';
 

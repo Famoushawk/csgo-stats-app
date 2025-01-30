@@ -1,21 +1,3 @@
-export interface MatchData {
-  team1Name: string;
-  team2Name: string;
-  team1Score: number;
-  team2Score: number;
-  team1Logo: string;
-  team2Logo: string;
-  mapName: string;
-}
-
-export interface KillData {
-  totalKills: number;
-  headshots: number;
-  bodyShots: number;
-  legShots: number;
-  weaponKills: Record<string, number>;
-}
-
 export interface PlayerStats {
   name: string;
   kills: number;
