@@ -8,12 +8,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import {onMounted, ref} from 'vue';
 import MatchSummary from '@/components/MatchSummary.vue';
 import ScoreBoard from '@/components/ScoreBoard.vue';
 import RoundAnalysis from '@/components/RoundAnalysis.vue';
-import type { MatchSummaryData, MatchStats, RoundTimings } from '@/data/types';
-import type { MatchJsonResponse, KillJsonResponse, RoundJsonResponse } from "@/data/jsonTypes";
+import type {MatchStats, MatchSummaryData, RoundTimings, WinCondition} from '@/data/types';
+import type {KillJsonResponse, MatchJsonResponse, RoundJsonResponse} from "@/data/jsonTypes";
 
 const matchData = ref<MatchSummaryData>({
   teams: {
@@ -66,7 +66,10 @@ onMounted(async () => {
         winnerSide: round.winner_side,
         winnerTeam: round.winner_team,
         scoreAfterRound: round.score_after_round,
-        winCondition: 'elimination' as const
+        winCondition: 'elimination' as WinCondition,
+        startTime: '',
+        endTime: '',
+        durationSeconds: 0
       })),
       winner: matchJson.winner,
       totalRounds: matchJson.total_rounds
@@ -94,7 +97,11 @@ onMounted(async () => {
         roundNumber: round.round_number,
         startTime: round.start_time,
         endTime: round.end_time,
-        durationSeconds: round.duration_seconds
+        durationSeconds: round.duration_seconds,
+        winnerSide: 'CT',
+        winnerTeam: '',
+        scoreAfterRound: '',
+        winCondition: 'elimination' as WinCondition
       }))
     };
 
